@@ -1,6 +1,5 @@
-/**
  * Sitely Interactive Scripts
- * Powered by Wuaze Studio
+ * Digital Services Studio
  */
 
 $(function () {

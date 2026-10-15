@@ -1,0 +1,71 @@
+<svg width="1200" height="864" viewBox="0 0 1200 864" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="864" fill="#101A33"/>
+  <!-- Ambient Gradients -->
+  <circle cx="200" cy="220" r="320" fill="#F06449" fill-opacity="0.14" filter="blur(80px)"/>
+  <circle cx="980" cy="650" r="300" fill="#F472B6" fill-opacity="0.10" filter="blur(90px)"/>
+  
+  <!-- Browser Chrome Frame -->
+  <rect x="80" y="60" width="1040" height="744" rx="16" fill="#1B2742" stroke="#252B3A" stroke-width="2"/>
+  <rect x="80" y="60" width="1040" height="52" rx="16" fill="#101A33"/>
+  <!-- Window Dots -->
+  <circle cx="116" cy="86" r="6" fill="#F06449"/>
+  <circle cx="136" cy="86" r="6" fill="#FFB74D"/>
+  <circle cx="156" cy="86" r="6" fill="#4CAF50"/>
+  <rect x="200" y="72" width="420" height="28" rx="6" fill="#1B2742"/>
+  <text x="216" y="91" font-family="'Manrope', sans-serif" font-size="12" fill="#F7F8FC" opacity="0.6">urbanspace.properties — Nazimabad &amp; North Nazimabad Luxury Estates</text>
+
+  <!-- Real Estate Header -->
+  <rect x="80" y="112" width="1040" height="60" fill="#162138"/>
+  <text x="120" y="149" font-family="'Manrope', sans-serif" font-size="20" font-weight="800" fill="#F7F8FC">URBAN<tspan fill="#F06449">SPACE</tspan> REALTY</text>
+  <text x="370" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Residential</text>
+  <text x="470" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Commercial</text>
+  <text x="580" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Plot Valuations</text>
+  <text x="700" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Verified Listings</text>
+  
+  <!-- WhatsApp Broker Contact -->
+  <rect x="910" y="126" width="170" height="36" rx="18" fill="#25D366"/>
+  <text x="938" y="149" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">WhatsApp Advisor</text>
+
+  <!-- Hero Headline -->
+  <text x="120" y="226" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" fill="#F06449" letter-spacing="2">PRIME PROPERTIES IN KARACHI CENTRAL</text>
+  <text x="120" y="272" font-family="'Manrope', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF">Find Your Next Address in</text>
+  <text x="120" y="314" font-family="'Manrope', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF">Nazimabad &amp; North Nazimabad.</text>
+
+  <!-- Search Filter Bar -->
+  <rect x="120" y="344" width="960" height="64" rx="12" fill="#101A33" stroke="#252B3A"/>
+  <rect x="136" y="358" width="220" height="36" rx="6" fill="#1B2742"/>
+  <text x="150" y="381" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC">📍 North Nazimabad (All Blocks)</text>
+  <rect x="372" y="358" width="180" height="36" rx="6" fill="#1B2742"/>
+  <text x="386" y="381" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC">🏠 240 – 400 Sq Yards</text>
+  <rect x="568" y="358" width="180" height="36" rx="6" fill="#1B2742"/>
+  <text x="582" y="381" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC">💰 Budget: PKR 3.5Cr – 8Cr</text>
+  <rect x="764" y="358" width="150" height="36" rx="6" fill="#1B2742"/>
+  <text x="778" y="381" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC">🏷️ Ready to Move</text>
+  <rect x="930" y="358" width="134" height="36" rx="6" fill="#F06449"/>
+  <text x="965" y="381" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Search (42)</text>
+
+  <!-- Property Cards -->
+  <!-- Property Card 1 -->
+  <rect x="120" y="430" width="465" height="320" rx="12" fill="#101A33" stroke="#252B3A"/>
+  <rect x="136" y="446" width="433" height="150" rx="8" fill="#223150"/>
+  <text x="352" y="535" font-family="'Manrope', sans-serif" font-size="52" text-anchor="middle" fill="#F06449">🏡</text>
+  <rect x="150" y="460" width="110" height="24" rx="4" fill="#F06449"/>
+  <text x="205" y="476" font-family="'Manrope', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">VERIFIED TITLE</text>
+  <text x="140" y="625" font-family="'Manrope', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">240 Sq Yd Corner Luxury Bungalow</text>
+  <text x="140" y="648" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.7">Block B, North Nazimabad • 5 Bed, Drawing/Dining, Solar Powered</text>
+  <text x="140" y="720" font-family="'Manrope', sans-serif" font-size="20" font-weight="800" fill="#F06449">PKR 5.75 Crore</text>
+  <rect x="420" y="694" width="149" height="36" rx="6" fill="#1B2742" stroke="#252B3A"/>
+  <text x="494" y="717" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#FFFFFF">Schedule Tour →</text>
+
+  <!-- Property Card 2 -->
+  <rect x="615" y="430" width="465" height="320" rx="12" fill="#101A33" stroke="#252B3A"/>
+  <rect x="631" y="446" width="433" height="150" rx="8" fill="#223150"/>
+  <text x="847" y="535" font-family="'Manrope', sans-serif" font-size="52" text-anchor="middle" fill="#F472B6">🏢</text>
+  <rect x="645" y="460" width="130" height="24" rx="4" fill="#1B2742" stroke="#252B3A"/>
+  <text x="710" y="476" font-family="'Manrope', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#F7F8FC">COMMERCIAL HUB</text>
+  <text x="635" y="625" font-family="'Manrope', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">3,200 Sq Ft Corporate Office Floor</text>
+  <text x="635" y="648" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.7">Main Nazimabad Chowrangi • High-speed Elevators, 24/7 Generator Backup</text>
+  <text x="635" y="720" font-family="'Manrope', sans-serif" font-size="20" font-weight="800" fill="#F06449">PKR 4.20 Crore</text>
+  <rect x="915" y="694" width="149" height="36" rx="6" fill="#1B2742" stroke="#252B3A"/>
+  <text x="989" y="717" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#FFFFFF">Schedule Tour →</text>
+</svg>

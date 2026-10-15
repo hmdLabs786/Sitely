@@ -1,0 +1,67 @@
+<svg width="1200" height="864" viewBox="0 0 1200 864" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="864" fill="#101A33"/>
+  <!-- Ambient Gradients -->
+  <circle cx="250" cy="180" r="320" fill="#F06449" fill-opacity="0.14" filter="blur(80px)"/>
+  <circle cx="950" cy="680" r="300" fill="#F472B6" fill-opacity="0.10" filter="blur(90px)"/>
+  
+  <!-- Browser Chrome Frame -->
+  <rect x="80" y="60" width="1040" height="744" rx="16" fill="#1B2742" stroke="#252B3A" stroke-width="2"/>
+  <rect x="80" y="60" width="1040" height="52" rx="16" fill="#101A33"/>
+  <!-- Window Dots -->
+  <circle cx="116" cy="86" r="6" fill="#F06449"/>
+  <circle cx="136" cy="86" r="6" fill="#FFB74D"/>
+  <circle cx="156" cy="86" r="6" fill="#4CAF50"/>
+  <rect x="200" y="72" width="410" height="28" rx="6" fill="#1B2742"/>
+  <text x="216" y="91" font-family="'Manrope', sans-serif" font-size="12" fill="#F7F8FC" opacity="0.6">ironpulse.fitness — North Nazimabad Block H, Karachi</text>
+
+  <!-- Gym Mockup Header -->
+  <rect x="80" y="112" width="1040" height="60" fill="#162138"/>
+  <text x="120" y="149" font-family="'Manrope', sans-serif" font-size="20" font-weight="800" fill="#F7F8FC">IRON<tspan fill="#F06449">PULSE</tspan> FITNESS</text>
+  <text x="360" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Programs</text>
+  <text x="450" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Trainers</text>
+  <text x="530" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Ladies Timings</text>
+  <text x="660" y="148" font-family="'Manrope', sans-serif" font-size="14" fill="#F7F8FC" opacity="0.8">Membership</text>
+  
+  <!-- Member Portal CTA -->
+  <rect x="910" y="126" width="170" height="36" rx="18" fill="#F06449"/>
+  <text x="948" y="149" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Book Free Trial</text>
+
+  <!-- Hero Content inside browser -->
+  <text x="120" y="228" font-family="'Manrope', sans-serif" font-size="14" font-weight="700" fill="#F06449" letter-spacing="2">NORTH NAZIMABAD’S PREMIER STRENGTH &amp; CONDITIONING CLUB</text>
+  <text x="120" y="282" font-family="'Manrope', sans-serif" font-size="36" font-weight="800" fill="#FFFFFF">Transform Your Strength,</text>
+  <text x="120" y="328" font-family="'Manrope', sans-serif" font-size="36" font-weight="800" fill="#FFFFFF">Backed by Certified Coaching.</text>
+  <text x="120" y="368" font-family="'Manrope', sans-serif" font-size="15" fill="#F7F8FC" opacity="0.7">State-of-the-art biomechanical gear, separate dedicated ladies slots, and certified personal trainers.</text>
+
+  <!-- Feature & Membership Cards -->
+  <!-- Card 1: Strength & Conditioning -->
+  <rect x="120" y="410" width="310" height="340" rx="12" fill="#101A33" stroke="#252B3A"/>
+  <rect x="140" y="430" width="270" height="150" rx="8" fill="#223150"/>
+  <text x="275" y="520" font-family="'Manrope', sans-serif" font-size="44" text-anchor="middle" fill="#F06449">🏋️</text>
+  <text x="140" y="612" font-family="'Manrope', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Elite Gym &amp; Free Weights</text>
+  <text x="140" y="638" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.7">Olympic lifting racks, dumbbells up to 50kg, and cardio conditioning deck.</text>
+  <text x="140" y="710" font-family="'Manrope', sans-serif" font-size="18" font-weight="800" fill="#F06449">PKR 8,500 <tspan font-size="12" fill="#F7F8FC" opacity="0.6">/ mo</tspan></text>
+  <rect x="330" y="686" width="80" height="32" rx="6" fill="#F06449"/>
+  <text x="370" y="707" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#FFFFFF">Join</text>
+
+  <!-- Card 2: Dedicated Ladies Batch -->
+  <rect x="450" y="410" width="310" height="340" rx="12" fill="#101A33" stroke="#252B3A"/>
+  <rect x="470" y="430" width="270" height="150" rx="8" fill="#223150"/>
+  <text x="605" y="520" font-family="'Manrope', sans-serif" font-size="44" text-anchor="middle" fill="#F472B6">🧘‍♀️</text>
+  <text x="470" y="612" font-family="'Manrope', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Dedicated Ladies Hours</text>
+  <text x="470" y="638" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.7">10:00 AM – 3:30 PM with certified female trainers, yoga, and HIIT bootcamps.</text>
+  <text x="470" y="710" font-family="'Manrope', sans-serif" font-size="18" font-weight="800" fill="#F472B6">PKR 7,500 <tspan font-size="12" fill="#F7F8FC" opacity="0.6">/ mo</tspan></text>
+  <rect x="660" y="686" width="80" height="32" rx="6" fill="#F472B6"/>
+  <text x="700" y="707" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#101A33">Join</text>
+
+  <!-- Card 3: Location & Timing Panel -->
+  <rect x="780" y="410" width="300" height="340" rx="12" fill="#101A33" stroke="#252B3A"/>
+  <text x="805" y="450" font-family="'Manrope', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">Facility Schedule</text>
+  <text x="805" y="480" font-family="'Manrope', sans-serif" font-size="13" fill="#F06449" font-weight="700">📍 Block H, North Nazimabad, KHI</text>
+  <text x="805" y="515" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.8">• Men's Slot: 6:00 AM – 10:00 AM</text>
+  <text x="805" y="540" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.8">• Ladies Slot: 10:30 AM – 3:30 PM</text>
+  <text x="805" y="565" font-family="'Manrope', sans-serif" font-size="13" fill="#F7F8FC" opacity="0.8">• Men's Evening: 4:00 PM – 12:00 AM</text>
+  <rect x="805" y="605" width="250" height="50" rx="8" fill="#1B2742" stroke="#252B3A"/>
+  <text x="825" y="635" font-family="'Manrope', sans-serif" font-size="13" fill="#FFFFFF">Free InBody Composition Scan</text>
+  <rect x="805" y="675" width="250" height="44" rx="8" fill="#F06449"/>
+  <text x="930" y="702" font-family="'Manrope', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#FFFFFF">Schedule Trial Session →</text>
+</svg>
