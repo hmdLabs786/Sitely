@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Studiova</title>
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.svg" />
+  <title>Sitely — Digital Services Studio | Powered by Wuaze Studio</title>
+  <meta name="description" content="Sitely is a premium digital services studio powered by Wuaze Studio. We engineer bespoke web applications, mobile software, intelligent AI automations, and modern design systems.">
+  <link rel="shortcut icon" type="image/svg+xml" href="../assets/images/logos/favicon.svg" />
   <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
   <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/sitely.css" />
 </head>
 
 <body>
@@ -18,25 +20,25 @@
     <div class="container">
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="index.html" class="logo-white">
-            <img src="../assets/images/logos/logo-white.svg" alt="logo" class="img-fluid">
+          <a href="index.html" class="logo-white" aria-label="Sitely Home">
+            <img src="../assets/images/logos/logo-white.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46">
           </a>
-          <a href="index.html" class="logo-dark">
-            <img src="../assets/images/logos/logo-dark.svg" alt="logo" class="img-fluid">
+          <a href="index.html" class="logo-dark" aria-label="Sitely Home">
+            <img src="../assets/images/logos/logo-dark.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46">
           </a>
         </div>
         <div class="d-flex align-items-center gap-4">
 
           <div class="btn-group">
             <button
-              class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
-              type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle shadow-sm"
+              type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" aria-label="Toggle navigation menu">
               <iconify-icon icon="solar:hamburger-menu-line-duotone" class="menu-icon fs-8 text-dark"></iconify-icon>
             </button>
             <ul class="dropdown-menu dropdown-menu-end p-4">
               <div class="d-flex flex-column gap-6">
                 <div class="hstack justify-content-between border-bottom pb-6">
-                  <p class="mb-0 fs-5 text-dark">Menu</p>
+                  <p class="mb-0 fs-5 text-dark fw-bold">Menu</p>
                   <button type="button" class="btn-close opacity-75" aria-label="Close"></button>
                 </div>
                 <div class="d-flex flex-column gap-3">
@@ -53,43 +55,31 @@
                           class="img-fluid animate-spin">About</a>
                     </li>
                     <li class="header-item">
+                      <a href="#services" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Services</a>
+                    </li>
+                    <li class="header-item">
                       <a href="projects.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Projects</a>
-                    </li>
-                    <li class="header-item">
-                      <a href="blog.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          class="img-fluid animate-spin">Blog</a>
-                    </li>
-                    <li class="header-item">
-                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          class="img-fluid animate-spin">Services</a>
                     </li>
                     <li class="header-item">
                       <a href="contact.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Contact</a>
                     </li>
-                    <li class="header-item">
-                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          class="img-fluid animate-spin">Docs</a>
-                    </li>
                   </ul>
-                  <div class="hstack gap-3">
-                    <a href="sign-in.html"
-                      class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center">Sign
-                      In</a>
-                    <a href="sign-up.html"
-                      class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center">Sign
-                      Up</a>
+                  <div class="pt-3 border-top">
+                    <a href="contact.html" class="btn w-100 justify-content-center">
+                      <span class="btn-text">Start a Project</span>
+                      <iconify-icon icon="lucide:arrow-up-right" class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
+                    </a>
                   </div>
                 </div>
-                <div>
-                  <a class="text-dark" href="tel:+1-212-456-7890">+1-212-456-7890</a>
-                  <a class="fs-8 text-dark fw-bold" href="mailto:info@wrappixel.com">info@wrappixel.com</a>
+                <div class="pt-3 border-top">
+                  <p class="mb-1 text-muted fs-3">Powered by Wuaze Studio</p>
+                  <a class="fs-4 text-dark fw-bold text-decoration-none" href="mailto:habban.madani786@gmail.com">habban.madani786@gmail.com</a>
                 </div>
               </div>
             </ul>
@@ -110,29 +100,35 @@
       <div class="container">
         <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
           <div class="row align-items-center">
-            <div class="col-xl-4">
+            <div class="col-xl-6 col-lg-8">
               <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
-                <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
-                <p class="mb-0 text-white fs-5 text-opacity-70">We create <span
-                    class="text-primary">high-performing</span> digital designs that elevate brands and enhance
-                  conversions.</p>
+                <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin" width="36" height="36">
+                <p class="mb-0 text-white fs-5 text-opacity-70">
+                  Powered by <span class="text-primary fw-bold">Wuaze Studio</span> — Engineering high-performing web platforms, mobile software, and intelligent AI workflows.
+                </p>
               </div>
             </div>
           </div>
           <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h1 class="mb-0 fs-16 text-white lh-1">Studiova</h1>
-            <a href="javascript:void(0)" class="p-1 ps-7 bg-primary rounded-pill">
+            <h1 class="mb-0 fs-16 text-white lh-1">Sitely</h1>
+            <a href="#services" class="p-1 ps-7 bg-primary rounded-pill text-decoration-none" aria-label="Explore Sitely Services">
               <span class="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center">
-                <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                <iconify-icon icon="lucide:arrow-down" class="fs-8 text-dark"></iconify-icon>
               </span>
             </a>
+          </div>
+          <div class="hstack gap-3 flex-wrap pt-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <span class="badge text-bg-dark px-3 py-2">Full-Stack Web</span>
+            <span class="badge text-bg-dark px-3 py-2">Mobile Apps</span>
+            <span class="badge text-bg-dark px-3 py-2">AI Integrations</span>
+            <span class="badge text-bg-dark px-3 py-2">UI/UX Systems</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!--  Stats & Facts Section -->
+    <!--  Stats & Facts Section (Section 01) -->
     <section class="stats-facts py-5 py-lg-11 py-xl-12 position-relative overflow-hidden">
       <div class="container">
         <div class="row gap-7 gap-xl-0">
@@ -140,20 +136,19 @@
             <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
               data-aos-duration="1000">
               <span
-                class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">01</span>
+                class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">01</span>
               <hr class="border-line">
-              <span class="badge text-bg-dark">Stats & facts</span>
+              <span class="badge text-bg-dark">Studio Standards</span>
             </div>
           </div>
           <div class="col-xl-8 col-xxl-7">
             <div class="d-flex flex-column gap-9">
               <div class="row">
-                <div class="col-xxl-8">
+                <div class="col-xxl-10">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0">High quality web design solutions you can trust.</h2>
-                    <p class="fs-5 mb-0">When selecting a web design agency, it's essential to consider its reputation,
-                      experience, and the specific needs of your project.</p>
+                    <h2 class="mb-0">Engineering digital products with precision, speed, and reliability.</h2>
+                    <p class="fs-5 mb-0 text-dark opacity-85">At Sitely, we operate at the intersection of aesthetic craft and robust full-stack engineering. Every product is built with modern architecture, rigorous code standards, and transparent delivery.</p>
                   </div>
                 </div>
               </div>
@@ -161,27 +156,30 @@
                 <div class="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="200"
                     data-aos-duration="1000">
-                    <h2 class="mb-0 fs-14"><span class="count" data-target="40">40</span>K+</h2>
-                    <p class="mb-0">People who have launched their websites</p>
+                    <h2 class="mb-0 fs-14"><span class="count" data-target="100">100</span>%</h2>
+                    <p class="mb-0 text-dark fw-medium">Bespoke Architecture</p>
+                    <small class="text-muted">Zero bloated templates; clean tailored codebases for every project.</small>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="1000">
-                    <h2 class="mb-0 fs-14"><span class="count" data-target="238">238</span>+</h2>
-                    <p class="mb-0">Experienced professionals ready to assist</p>
+                    <h2 class="mb-0 fs-14">&lt;1s</h2>
+                    <p class="mb-0 text-dark fw-medium">Performance Benchmark</p>
+                    <small class="text-muted">Optimized Core Web Vitals and lightning-fast user experiences.</small>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="400"
                     data-aos-duration="1000">
-                    <h2 class="mb-0 fs-14"><span class="count" data-target="3">3</span>M+</h2>
-                    <p class="mb-0">Support through messages and live consultations</p>
+                    <h2 class="mb-0 fs-14">Agile</h2>
+                    <p class="mb-0 text-dark fw-medium">Direct Collaboration</p>
+                    <small class="text-muted">Weekly sprint demos, continuous staging links, and direct developer communication.</small>
                   </div>
                 </div>
               </div>
               <a href="about-us.html" class="btn" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                <span class="btn-text">Who we are</span>
+                <span class="btn-text">About Sitely</span>
                 <iconify-icon icon="lucide:arrow-up-right"
                   class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
               </a>
@@ -189,13 +187,13 @@
           </div>
         </div>
       </div>
-      <div class="position-absolute bottom-0 start-0" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+      <div class="position-absolute bottom-0 start-0 opacity-25" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
         <img src="../assets/images/backgrounds/stats-facts-bg.svg" alt="" class="img-fluid">
       </div>
     </section>
 
-    <!--  Featured Projects Section -->
-    <section class="featured-projects py-5 py-lg-11 py-xl-12 bg-light-gray">
+    <!--  Featured Projects Section (Section 02) -->
+    <section class="featured-projects py-5 py-lg-11 py-xl-12 bg-light-gray" id="portfolio">
       <div class="d-flex flex-column gap-5 gap-xl-11">
         <div class="container">
           <div class="row gap-7 gap-xl-0">
@@ -203,19 +201,18 @@
               <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">02</span>
+                  class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">02</span>
                 <hr class="border-line">
                 <span class="badge text-bg-dark">Portfolio</span>
               </div>
             </div>
             <div class="col-xl-8 col-xxl-7">
               <div class="row">
-                <div class="col-xxl-8">
+                <div class="col-xxl-9">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0">Featured projects</h2>
-                    <p class="fs-5 mb-0">A glimpse into our creativity—exploring innovative designs, successful
-                      collaborations, and transformative digital experiences.</p>
+                    <h2 class="mb-0">Featured studio projects & systems</h2>
+                    <p class="fs-5 mb-0 text-dark opacity-85">A curated look at our technical craftsmanship—spanning scalable web platforms, automation frameworks, and interactive digital interfaces.</p>
                   </div>
                 </div>
               </div>
@@ -224,132 +221,145 @@
         </div>
         <div class="featured-projects-slider px-3">
           <div class="owl-carousel owl-theme">
+            
+            <!-- Project 1 -->
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden">
-                  <img src="../assets/images/portfolio/portfolio-img-1.jpg" alt="" class="img-fluid">
+                  <img src="../assets/images/portfolio/portfolio-img-1.jpg" alt="Wuaze Cloud Engine" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none">
+                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Snapclear</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">UX Strategy</span>
-                    <span class="badge text-dark border">UI Design</span>
+                  <h3 class="mb-0">Wuaze Cloud Platform</h3>
+                  <div class="hstack gap-2 flex-wrap">
+                    <span class="badge border">Web Platform</span>
+                    <span class="badge border">API Architecture</span>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Project 2 -->
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden">
-                  <img src="../assets/images/portfolio/portfolio-img-2.jpg" alt="" class="img-fluid">
+                  <img src="../assets/images/portfolio/portfolio-img-2.jpg" alt="OmniFlow Automation" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none">
+                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Amber Bottle</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Web development</span>
-                    <span class="badge text-dark border">Digital design</span>
+                  <h3 class="mb-0">OmniFlow Automation</h3>
+                  <div class="hstack gap-2 flex-wrap">
+                    <span class="badge border">AI Workflows</span>
+                    <span class="badge border">Automation</span>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Project 3 -->
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden">
-                  <img src="../assets/images/portfolio/portfolio-img-3.jpg" alt="" class="img-fluid">
+                  <img src="../assets/images/portfolio/portfolio-img-3.jpg" alt="Pulse UI Design System" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none">
+                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Pixelforge</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">UI/UX design</span>
-                    <span class="badge text-dark border">Web development</span>
+                  <h3 class="mb-0">Pulse UI Design System</h3>
+                  <div class="hstack gap-2 flex-wrap">
+                    <span class="badge border">Design System</span>
+                    <span class="badge border">UI/UX Strategy</span>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Project 4 -->
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden">
-                  <img src="../assets/images/portfolio/portfolio-img-4.jpg" alt="" class="img-fluid">
+                  <img src="../assets/images/portfolio/portfolio-img-4.jpg" alt="Apex Mobile Analytics" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none">
+                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">BioTrack LIMS</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Brand identity</span>
-                    <span class="badge text-dark border">Digital design</span>
+                  <h3 class="mb-0">Apex Mobile Suite</h3>
+                  <div class="hstack gap-2 flex-wrap">
+                    <span class="badge border">Mobile App</span>
+                    <span class="badge border">Cross-Platform</span>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Project 5 -->
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden">
-                  <img src="../assets/images/portfolio/portfolio-img-5.jpg" alt="" class="img-fluid">
+                  <img src="../assets/images/portfolio/portfolio-img-5.jpg" alt="Artisan Digital Showcase" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none">
+                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Amber Bottle</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Photography</span>
-                    <span class="badge text-dark border">Studio</span>
+                  <h3 class="mb-0">Artisan Studio Showcase</h3>
+                  <div class="hstack gap-2 flex-wrap">
+                    <span class="badge border">Brand Experience</span>
+                    <span class="badge border">Web Application</span>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Project 6 -->
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden">
-                  <img src="../assets/images/portfolio/portfolio-img-6.jpg" alt="" class="img-fluid">
+                  <img src="../assets/images/portfolio/portfolio-img-6.jpg" alt="Synthetix Intelligence Hub" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none">
+                      <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Digital Magazine</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Digital design</span>
-                    <span class="badge text-dark border">Web development</span>
+                  <h3 class="mb-0">Synthetix Intelligence Hub</h3>
+                  <div class="hstack gap-2 flex-wrap">
+                    <span class="badge border">AI Integration</span>
+                    <span class="badge border">Full-Stack</span>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </section>
 
-    <!--  Services Section -->
+    <!--  Services Section (Section 03) -->
     <section class="services py-5 py-lg-11 py-xl-12 bg-dark" id="services">
       <div class="container">
         <div class="d-flex flex-column gap-5 gap-xl-10">
@@ -358,19 +368,18 @@
               <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">03</span>
+                  class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">03</span>
                 <hr class="border-line bg-white">
                 <span class="badge text-dark bg-white">Services</span>
               </div>
             </div>
             <div class="col-xl-8 col-xxl-7">
               <div class="row">
-                <div class="col-xxl-8">
+                <div class="col-xxl-9">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0 text-white">What we do</h2>
-                    <p class="fs-5 mb-0 text-white text-opacity-70">A glimpse into our creativity—exploring innovative
-                      designs, successful collaborations, and transformative digital experiences.</p>
+                    <h2 class="mb-0 text-white">What we engineer & deliver</h2>
+                    <p class="fs-5 mb-0 text-white text-opacity-70">Comprehensive digital capabilities tailored to modern products, fast-moving teams, and evolving customer expectations.</p>
                   </div>
                 </div>
               </div>
@@ -381,16 +390,16 @@
               <div class="col-xl-4">
                 <div class="tab-content" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                   <div class="tab-pane active" id="one" role="tabpanel" aria-labelledby="one-tab" tabindex="0">
-                    <img src="../assets/images/services/services-img-1.jpg" alt="services" class="img-fluid">
+                    <img src="../assets/images/services/services-img-1.jpg" alt="Web Development" class="img-fluid w-100">
                   </div>
                   <div class="tab-pane" id="two" role="tabpanel" aria-labelledby="two-tab" tabindex="0">
-                    <img src="../assets/images/services/services-img-2.jpg" alt="services" class="img-fluid">
+                    <img src="../assets/images/services/services-img-2.jpg" alt="Mobile Applications" class="img-fluid w-100">
                   </div>
                   <div class="tab-pane" id="three" role="tabpanel" aria-labelledby="three-tab" tabindex="0">
-                    <img src="../assets/images/services/services-img-3.jpg" alt="services" class="img-fluid">
+                    <img src="../assets/images/services/services-img-3.jpg" alt="AI & Automation" class="img-fluid w-100">
                   </div>
                   <div class="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab" tabindex="0">
-                    <img src="../assets/images/services/services-img-4.jpg" alt="services" class="img-fluid">
+                    <img src="../assets/images/services/services-img-4.jpg" alt="Creative UI/UX Design" class="img-fluid w-100">
                   </div>
                 </div>
               </div>
@@ -399,77 +408,65 @@
                   <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up" data-aos-delay="200"
                     data-aos-duration="1000">
                     <li
-                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      class="nav-item py-4 py-lg-7 border-top border-white border-opacity-10 d-flex align-items-center w-100"
                       role="presentation">
                       <div class="row w-100 align-items-center gx-3">
                         <div class="col-lg-6 col-xxl-5">
-                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 active"
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 active text-start"
                             id="one-tab" data-bs-toggle="tab" data-bs-target="#one" type="button" role="tab"
-                            aria-controls="one" aria-selected="true">Brand identity</button>
+                            aria-controls="one" aria-selected="true">Web & Full-Stack</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
                           <p class="text-white text-opacity-70 mb-0">
-                            When selecting a web design agency, it's essential to consider its reputation, experience,
-                            and
-                            the
-                            specific needs of your project.
+                            Custom web platforms, Next.js / React frontends, resilient REST/GraphQL APIs, and headless architectures engineered for high performance.
                           </p>
                         </div>
                       </div>
                     </li>
                     <li
-                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      class="nav-item py-4 py-lg-7 border-top border-white border-opacity-10 d-flex align-items-center w-100"
                       role="presentation">
                       <div class="row w-100 align-items-center gx-3">
                         <div class="col-lg-6 col-xxl-5">
-                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0" id="two-tab"
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 text-start" id="two-tab"
                             data-bs-toggle="tab" data-bs-target="#two" type="button" role="tab" aria-controls="two"
-                            aria-selected="false">Web development</button>
+                            aria-selected="false">Mobile Applications</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
                           <p class="text-white text-opacity-70 mb-0">
-                            When selecting a web design agency, it's essential to consider its reputation, experience,
-                            and
-                            the
-                            specific needs of your project.
+                            Cross-platform iOS and Android mobile software designed with native fluidity, offline-ready data sync, and delightful ergonomic touch interactions.
                           </p>
                         </div>
                       </div>
                     </li>
                     <li
-                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      class="nav-item py-4 py-lg-7 border-top border-white border-opacity-10 d-flex align-items-center w-100"
                       role="presentation">
                       <div class="row w-100 align-items-center gx-3">
                         <div class="col-lg-6 col-xxl-5">
-                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 text-start"
                             id="three-tab" data-bs-toggle="tab" data-bs-target="#three" type="button" role="tab"
-                            aria-controls="three" aria-selected="false">Content creation</button>
+                            aria-controls="three" aria-selected="false">AI & Automation</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
                           <p class="text-white text-opacity-70 mb-0">
-                            When selecting a web design agency, it's essential to consider its reputation, experience,
-                            and
-                            the
-                            specific needs of your project.
+                            Intelligent LLM agent integration, automated business workflows, custom processing pipelines, and data synchronization that eliminates manual bottlenecks.
                           </p>
                         </div>
                       </div>
                     </li>
                     <li
-                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      class="nav-item py-4 py-lg-7 border-top border-white border-opacity-10 d-flex align-items-center w-100"
                       role="presentation">
                       <div class="row w-100 align-items-center gx-3">
                         <div class="col-lg-6 col-xxl-5">
-                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 text-start"
                             id="four-tab" data-bs-toggle="tab" data-bs-target="#four" type="button" role="tab"
-                            aria-controls="four" aria-selected="false">Motion & 3d modeling</button>
+                            aria-controls="four" aria-selected="false">UI/UX & Design Systems</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
                           <p class="text-white text-opacity-70 mb-0">
-                            When selecting a web design agency, it's essential to consider its reputation, experience,
-                            and
-                            the
-                            specific needs of your project.
+                            End-to-end design systems, interaction patterns, wireframes, and high-fidelity clickable prototypes that unite beauty with conversion logic.
                           </p>
                         </div>
                       </div>
@@ -477,7 +474,7 @@
                   </ul>
                   <a href="projects.html" class="btn border border-white border-opacity-25" data-aos="fade-up"
                     data-aos-delay="300" data-aos-duration="1000">
-                    <span class="btn-text">See our Work</span>
+                    <span class="btn-text">Explore All Projects</span>
                     <iconify-icon icon="lucide:arrow-up-right"
                       class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
                   </a>
@@ -489,7 +486,7 @@
       </div>
     </section>
 
-    <!--  Why choose us Section -->
+    <!--  Why choose us Section (Section 04) -->
     <section class="why-choose-us py-5 py-lg-11 py-xl-12">
       <div class="container">
         <div class="row justify-content-between gap-5 gap-xl-0">
@@ -498,101 +495,73 @@
               <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">04</span>
+                  class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">04</span>
                 <hr class="border-line">
-                <span class="badge text-bg-dark">About us</span>
+                <span class="badge text-bg-dark">Our Approach</span>
               </div>
-              <h2 class="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Why choose us</h2>
-              <p class="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">We blend
-                creativity with strategy to craft unique digital experiences that make an
-                impact.
-                With a focus on innovation, attention to details.</p>
+              <h2 class="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Why partner with Sitely</h2>
+              <p class="mb-0 fs-5 text-dark opacity-85" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                We combine software engineering discipline with thoughtful digital design to craft solutions that stand out, load instantaneously, and endure over time.
+              </p>
             </div>
           </div>
           <div class="col-xl-9 col-xxl-8">
             <div class="row">
+              <!-- Card 1 -->
               <div class="col-lg-4 mb-7 mb-lg-0">
                 <div class="card position-relative overflow-hidden bg-primary h-100" data-aos="fade-up"
                   data-aos-delay="100" data-aos-duration="1000">
                   <div class="card-body d-flex flex-column justify-content-between">
                     <div class="d-flex flex-column gap-3 position-relative z-1">
-                      <ul class="list-unstyled mb-0 hstack gap-1">
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-dark"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-dark"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-dark"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-dark"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-line-duotone"
-                              class="fs-6 text-dark"></iconify-icon></a></li>
-                      </ul>
-                      <p class="mb-0 fs-6 text-dark">The team exceeded our expectations with a stunning brand identity.
+                      <div class="badge bg-white text-primary fw-bold w-fit mb-2">Direct Collaboration</div>
+                      <p class="mb-0 fs-6 text-white fw-medium">
+                        Work directly with senior developers and product designers. No account managers or communication silos.
                       </p>
                     </div>
-                    <div class="position-relative z-1">
-                      <div class="pb-6 border-bottom">
-                        <h2 class="mb-0">98.6%</h2>
-                        <p class="mb-0">Customer satisfaction</p>
+                    <div class="position-relative z-1 pt-6">
+                      <div class="pb-6 border-bottom border-white border-opacity-25">
+                        <h2 class="mb-0 text-white">100%</h2>
+                        <p class="mb-0 text-white opacity-90">Code Ownership</p>
                       </div>
-                      <div class="hstack gap-6 pt-6">
-                        <img src="../assets/images/profile/avatar-1.png" alt=""
-                          class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="64" height="64">
+                      <div class="hstack gap-3 pt-6">
                         <div>
-                          <h5 class="mb-0">Wade Warren</h5>
-                          <p class="mb-0">Bank of America</p>
+                          <h5 class="mb-0 text-white">Wuaze Studio</h5>
+                          <p class="mb-0 text-white opacity-75 fs-3">Parent Technology Studio</p>
                         </div>
                       </div>
                     </div>
-                    <div class="position-absolute bottom-0 end-0">
+                    <div class="position-absolute bottom-0 end-0 opacity-25">
                       <img src="../assets/images/backgrounds/customer-satisfaction-bg.svg" alt="" class="img-fluid">
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- Card 2 -->
               <div class="col-lg-4 mb-7 mb-lg-0">
                 <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                  <div class="position-relative">
-                    <img src="../assets/images/services/services-img-2.jpg" alt="" class="img-fluid w-100">
+                  <div class="position-relative overflow-hidden rounded-4">
+                    <img src="../assets/images/services/services-img-2.jpg" alt="Technology Stack" class="img-fluid w-100 rounded-4">
                   </div>
 
                   <div class="card bg-dark">
-                    <div class="card-body d-flex flex-column gap-7">
+                    <div class="card-body d-flex flex-column gap-4">
                       <div>
-                        <h2 class="mb-0 text-white">500+</h2>
-                        <p class="mb-0 text-white text-opacity-70">Successful projects completed</p>
+                        <h3 class="mb-1 text-white">Modern Tech</h3>
+                        <p class="mb-0 text-white text-opacity-70 fs-4">Zero legacy baggage. Future-proof stack.</p>
                       </div>
-                      <ul class="d-flex align-items-center mb-0">
-                        <li>
-                          <a href="javascript:void(0)">
-                            <img src="../assets/images/profile/user-1.jpg" width="44" height="44"
-                              class="rounded-circle border border-2 border-dark" alt="user-1">
-                          </a>
-                        </li>
-                        <li class="ms-n2">
-                          <a href="javascript:void(0)">
-                            <img src="../assets/images/profile/user-2.jpg" width="44" height="44"
-                              class="rounded-circle border border-2 border-dark" alt="user-2">
-                          </a>
-                        </li>
-                        <li class="ms-n2">
-                          <a href="javascript:void(0)">
-                            <img src="../assets/images/profile/user-3.jpg" width="44" height="44"
-                              class="rounded-circle border border-2 border-dark" alt="user-3">
-                          </a>
-                        </li>
-                        <li class="ms-n2">
-                          <a href="javascript:void(0)">
-                            <img src="../assets/images/profile/user-4.jpg" width="44" height="44"
-                              class="rounded-circle border border-2 border-dark" alt="user-4">
-                          </a>
-                        </li>
-                      </ul>
+                      <div class="d-flex flex-wrap gap-2">
+                        <span class="badge border border-white border-opacity-25 text-white">TypeScript</span>
+                        <span class="badge border border-white border-opacity-25 text-white">React</span>
+                        <span class="badge border border-white border-opacity-25 text-white">Next.js</span>
+                        <span class="badge border border-white border-opacity-25 text-white">Python / AI</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- Card 3 -->
               <div class="col-lg-4 mb-7 mb-lg-0">
                 <div class="card border h-100 position-relative overflow-hidden" data-aos="fade-up" data-aos-delay="300"
                   data-aos-duration="1000">
@@ -600,15 +569,14 @@
                     class="border rounded-circle round-490 d-block position-absolute top-0 start-50 translate-middle"></span>
                   <div class="card-body d-flex flex-column justify-content-between">
                     <div>
-                      <h2 class="mb-0">238+</h2>
-                      <p class="mb-0 text-dark">Brands served worldwide</p>
+                      <h2 class="mb-1 text-primary">Precision</h2>
+                      <p class="mb-0 text-dark fw-bold">Continuous Staging & Demos</p>
                     </div>
                     <div class="d-flex flex-column gap-3">
                       <a href="index.html" class="logo-dark">
-                        <img src="../assets/images/logos/logo-dark.svg" alt="logo" class="img-fluid">
+                        <img src="../assets/images/logos/logo-dark.svg" alt="Sitely" class="img-fluid" width="160">
                       </a>
-                      <p class="mb-0 fs-5 text-dark">Our global reach allows us to create unique, culturally relevant
-                        designs for businesses across different industries.</p>
+                      <p class="mb-0 fs-5 text-dark opacity-85">We build in testable weekly iterations so you can interact with live software early and often.</p>
                     </div>
                   </div>
                   <span
@@ -621,8 +589,8 @@
       </div>
     </section>
 
-    <!--  Testimonial Section -->
-    <section class="testimonial py-5 py-lg-11 py-xl-12 bg-light-gray">
+    <!--  FAQ Section (Section 05) -->
+    <section class="faq py-5 py-lg-11 py-xl-12 bg-light-gray" id="faq">
       <div class="container">
         <div class="d-flex flex-column gap-5 gap-xl-11">
           <div class="row gap-7 gap-xl-0">
@@ -630,498 +598,7 @@
               <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">05</span>
-                <hr class="border-line bg-white">
-                <span class="badge text-bg-dark">Testimonial</span>
-              </div>
-            </div>
-            <div class="col-xl-8 col-xxl-7">
-              <div class="row">
-                <div class="col-xxl-8">
-                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-                    data-aos-duration="1000">
-                    <h2 class="mb-0">Stories from clients</h2>
-                    <p class="fs-5 mb-0 text-opacity-70">Real experiences, genuine feedback—discover how our creative
-                      solutions have transformed brands and elevated businesses.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row gap-7 gap-lg-0">
-            <div class="col-lg-4 col-xl-3 d-flex align-items-stretch">
-              <div class="card bg-primary w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
-                  <div class="d-flex flex-column gap-4">
-                    <p class="mb-0">Hear from them</p>
-                    <h4 class="mb-0">Our website redesign was flawless. They understood our vision perfectly!</h4>
-                  </div>
-                  <div class="hstack gap-3">
-                    <img src="../assets/images/testimonial/testimonial-1.jpg" alt=""
-                      class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
-                    <div>
-                      <h5 class="mb-1 fw-normal">Albert Flores</h5>
-                      <p class="mb-0">MasterCard</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-xl-6 d-flex align-items-stretch">
-              <div class="card bg-dark w-100" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
-                  <div class="d-flex flex-column gap-4">
-                    <p class="mb-0 text-white text-opacity-70">Hear from them</p>
-                    <h4 class="mb-0 text-white pe-xl-2">From concept to execution, they delivered outstanding results.
-                      Highly recommend their expertise!</h4>
-                    <div class="hstack gap-2">
-                      <ul class="list-unstyled mb-0 hstack gap-1">
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-line-duotone"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                      </ul>
-                      <h6 class="mb-0 text-white fw-medium">4.0</h6>
-                    </div>
-                  </div>
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="hstack gap-3">
-                      <img src="../assets/images/testimonial/testimonial-2.jpg" alt=""
-                        class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
-                      <div>
-                        <h5 class="mb-1 fw-normal text-white">Robert Fox</h5>
-                        <p class="mb-0 text-white text-opacity-70">Mitsubishi</p>
-                      </div>
-                    </div>
-                    <span><img src="../assets/images/testimonial/quete.svg" alt="quete"
-                        class="img-fluid flex-shrink-0"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-xl-3 d-flex align-items-stretch">
-              <div class="card w-100" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
-                  <div class="d-flex flex-column gap-4">
-                    <p class="mb-0">Hear from them</p>
-                    <h4 class="mb-0">Super smooth process with incredible results. highly recommend!</h4>
-                  </div>
-                  <div class="hstack gap-3">
-                    <img src="../assets/images/testimonial/testimonial-3.jpg" alt=""
-                      class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
-                    <div>
-                      <h5 class="mb-1 fw-normal">Jenny Wilson</h5>
-                      <p class="mb-0">Pizza Hut</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--  Meet our team Section -->
-    <section class="meet-our-team py-5 py-lg-11 py-xl-12">
-      <div class="container">
-        <div class="d-flex flex-column gap-5 gap-xl-11">
-          <div class="row gap-7 gap-xl-0">
-            <div class="col-xl-4 col-xxl-4">
-              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
-                data-aos-duration="1000">
-                <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">06</span>
-                <hr class="border-line bg-white">
-                <span class="badge text-bg-dark">The team</span>
-              </div>
-            </div>
-            <div class="col-xl-8 col-xxl-7">
-              <div class="row">
-                <div class="col-xxl-8">
-                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-                    data-aos-duration="1000">
-                    <h2 class="mb-0">Meet our team</h2>
-                    <p class="fs-5 mb-0 text-opacity-70">Our team is committed to redefining digital experiences through
-                      innovative web solutions while fostering a diverse and collaborative environment.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="1000">
-                <div class="meet-team-img position-relative overflow-hidden">
-                  <img src="../assets/images/team/team-img-1.jpg" alt="team-img" class="img-fluid w-100">
-                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
-                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="meet-team-details">
-                  <h4 class="mb-0">Martha Finley</h4>
-                  <p class="mb-0">Creative Director</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="200"
-                data-aos-duration="1000">
-                <div class="meet-team-img position-relative overflow-hidden">
-                  <img src="../assets/images/team/team-img-2.jpg" alt="team-img" class="img-fluid w-100">
-                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
-                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="meet-team-details">
-                  <h4 class="mb-0">Floyd Miles</h4>
-                  <p class="mb-0">Marketing Strategist</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="300"
-                data-aos-duration="1000">
-                <div class="meet-team-img position-relative overflow-hidden">
-                  <img src="../assets/images/team/team-img-3.jpg" alt="team-img" class="img-fluid w-100">
-                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
-                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="meet-team-details">
-                  <h4 class="mb-0">Glenna Snyder</h4>
-                  <p class="mb-0">Lead Designer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="400"
-                data-aos-duration="1000">
-                <div class="meet-team-img position-relative overflow-hidden">
-                  <img src="../assets/images/team/team-img-4.jpg" alt="team-img" class="img-fluid w-100">
-                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
-                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
-                      <li><a href="#!"
-                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
-                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="meet-team-details">
-                  <h4 class="mb-0">Albert Flores</h4>
-                  <p class="mb-0">UX/UI Developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--  Pricing Section -->
-    <section class="pricing-section py-5 py-lg-11 py-xl-12 bg-light-gray">
-      <div class="container">
-        <div class="d-flex flex-column gap-5 gap-xl-10">
-          <div class="d-flex flex-column gap-5 gap-xl-11">
-            <div class="row gap-7 gap-xl-0">
-              <div class="col-xl-4 col-xxl-4">
-                <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
-                  data-aos-duration="1000">
-                  <span
-                    class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">07</span>
-                  <hr class="border-line bg-white">
-                  <span class="badge text-bg-dark">Pricing</span>
-                </div>
-              </div>
-              <div class="col-xl-8 col-xxl-7">
-                <div class="row">
-                  <div class="col-xxl-8">
-                    <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-                      data-aos-duration="1000">
-                      <h2 class="mb-0">Affordable pricing</h2>
-                      <p class="fs-5 mb-0 text-opacity-70">A glimpse into our creativity—exploring innovative designs,
-                        successful collaborations, and transformative digital experiences.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch">
-                <div class="card w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                  <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                    <div class="d-flex flex-column gap-6">
-                      <h5 class="mb-0 fw-medium">Launch</h5>
-                      <div class="hstack gap-2">
-                        <h3 class="mb-0">$699</h3>
-                        <p class="mb-0">/month</p>
-                      </div>
-                      <p class="mb-0">Ideal for startups and small businesses taking their first steps online.</p>
-                    </div>
-                    <div class="pt-8 border-top d-flex flex-column gap-6">
-                      <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                      <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Competitive research & insights</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Wireframing and prototyping</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Basic tracking setup (Google Analytics, etc.)</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Standard contact form integration</h6>
-                        </li>
-                      </ul>
-                    </div>
-                    <a href="" class="btn w-100 justify-content-center">
-                      <span class="btn-text">Subscribe now</span>
-                      <iconify-icon icon="lucide:arrow-up-right"
-                        class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch">
-                <div class="card w-100" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                  <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                    <div class="d-flex flex-column gap-6">
-                      <div class="hstack gap-3">
-                        <h5 class="mb-0 fw-medium">Scale</h5>
-                        <span class="badge text-bg-dark hstack gap-2"><iconify-icon icon="lucide:flame"
-                            class="fs-5"></iconify-icon>Most popular</span>
-                      </div>
-                      <div class="hstack gap-2">
-                        <h3 class="mb-0 text-opacity-50 text-dark"><del>$2,199</del></h3>
-                        <h3 class="mb-0">$1,699</h3>
-                        <p class="mb-0">/month</p>
-                      </div>
-                      <p class="mb-0">Perfect for growing brands needing more customization and flexibility.</p>
-                    </div>
-                    <div class="pt-8 border-top d-flex flex-column gap-6">
-                      <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                      <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Everything in the Launch Plan</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Custom design for up to 10 pages</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Seamless social media integration</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">SEO enhancements for key pages</h6>
-                        </li>
-                      </ul>
-                    </div>
-                    <a href="" class="btn w-100 justify-content-center">
-                      <span class="btn-text">Subscribe now</span>
-                      <iconify-icon icon="lucide:arrow-up-right"
-                        class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch">
-                <div class="card w-100" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                  <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                    <div class="d-flex flex-column gap-6">
-                      <h5 class="mb-0 fw-medium">Elevate</h5>
-                      <div class="hstack gap-2">
-                        <h3 class="mb-0">$3,499</h3>
-                        <p class="mb-0">/month</p>
-                      </div>
-                      <p class="mb-0">Best suited for established businesses wanting a fully tailored experience.</p>
-                    </div>
-                    <div class="pt-8 border-top d-flex flex-column gap-6">
-                      <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                      <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Everything in the Scale Plan</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">E-commerce functionality (if needed)</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Branded email template design</h6>
-                        </li>
-                        <li class="hstack gap-3">
-                          <span
-                            class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"><iconify-icon
-                              icon="lucide:check" class="fs-6 text-dark"></iconify-icon></span>
-                          <h6 class="mb-0 fw-normal">Priority support for six months after launch</h6>
-                        </li>
-                      </ul>
-                    </div>
-                    <a href="" class="btn w-100 justify-content-center">
-                      <span class="btn-text">Subscribe now</span>
-                      <iconify-icon icon="lucide:arrow-up-right"
-                        class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-8" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-            <p class="fs-5 mb-0 text-center text-dark">More than 320 trusted partners & clients</p>
-            <div class="marquee w-100 d-flex align-items-center overflow-hidden">
-              <div class="marquee-content d-flex align-items-center gap-8">
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-1.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-2.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-3.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-4.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-5.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-1.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-2.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-3.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-4.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-5.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-1.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-2.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-3.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-4.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-5.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-1.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-2.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-3.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-4.svg" alt="partners" class="img-fluid">
-                </div>
-                <div class="marquee-tag hstack justify-content-center">
-                  <img src="../assets/images/pricing/partners-5.svg" alt="partners" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--  FAQ Section -->
-    <section class="faq py-5 py-lg-11 py-xl-12">
-      <div class="container">
-        <div class="d-flex flex-column gap-5 gap-xl-11">
-          <div class="row gap-7 gap-xl-0">
-            <div class="col-xl-4 col-xxl-4">
-              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
-                data-aos-duration="1000">
-                <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">08</span>
+                  class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">05</span>
                 <hr class="border-line bg-white">
                 <span class="badge text-bg-dark">FAQs</span>
               </div>
@@ -1132,8 +609,7 @@
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
                     <h2 class="mb-0">Frequently asked questions</h2>
-                    <p class="fs-5 mb-0 text-opacity-70">Discover how we tailor our solutions to meet unique needs,
-                      delivering impactful strategies, personalized branding, and exceptional customer experiences.</p>
+                    <p class="fs-5 mb-0 text-dark opacity-75">Transparent information regarding our development methodologies, technical standards, and studio engagements.</p>
                   </div>
                 </div>
               </div>
@@ -1147,70 +623,70 @@
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      What services does your agency offer?
+                      What digital services does Sitely specialize in?
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body pt-0 fs-5 text-dark">Yes, we provide post-launch support to ensure smooth
-                      implementation and offer ongoing maintenance packages for clients needing regular updates or
-                      technical assistance.</div>
+                    <div class="accordion-body pt-0 fs-5 text-dark">
+                      Sitely specializes in bespoke full-stack web applications, mobile applications (iOS and Android), custom AI workflow automations and LLM integrations, complete UI/UX design systems, and digital performance optimization.
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      How long does a typical project take?
+                      How does the development and collaboration process work?
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body pt-0 fs-5 text-dark">Yes, we provide post-launch support to ensure smooth
-                      implementation and offer ongoing maintenance packages for clients needing regular updates or
-                      technical assistance.</div>
+                    <div class="accordion-body pt-0 fs-5 text-dark">
+                      We operate in agile 2-week sprints. We begin with technical discovery and architecture planning, followed by iterative feature builds with continuous staging deployments. Clients receive weekly progress demos and communicate directly with the engineering lead.
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Do you offer custom designs, or do you use templates?
+                      Do you build custom solutions or use pre-made templates?
                     </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body pt-0 fs-5 text-dark">Yes, we provide post-launch support to ensure smooth
-                      implementation and offer ongoing maintenance packages for clients needing regular updates or
-                      technical assistance.</div>
+                    <div class="accordion-body pt-0 fs-5 text-dark">
+                      Every project is engineered with custom architecture tailored specifically to your business requirements, performance criteria, and long-term roadmap. We deliver clean, modular, and maintainable codebases with full intellectual property transfer.
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      What’s the cost of a project?
+                      What is the typical project timeline?
                     </button>
                   </h2>
                   <div id="flush-collapseFour" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body pt-0 fs-5 text-dark">Yes, we provide post-launch support to ensure smooth
-                      implementation and offer ongoing maintenance packages for clients needing regular updates or
-                      technical assistance.</div>
+                    <div class="accordion-body pt-0 fs-5 text-dark">
+                      Timelines depend on scope. Focused web applications and brand platforms typically ship within 3 to 6 weeks, while expansive multi-platform apps or complex AI automation workflows take 6 to 12 weeks with weekly functional releases.
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item border-bottom">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                      Do you provide ongoing support after project completion?
+                      Do you provide ongoing support after project launch?
                     </button>
                   </h2>
                   <div id="flush-collapseFive" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body pt-0 fs-5 text-dark">Yes, we provide post-launch support to ensure smooth
-                      implementation and offer ongoing maintenance packages for clients needing regular updates or
-                      technical assistance.</div>
+                    <div class="accordion-body pt-0 fs-5 text-dark">
+                      Yes. Every deliverable includes a post-launch warranty period for technical stabilization and bug fixes. We also offer dedicated ongoing retainers for continuous feature expansion, cloud maintenance, and performance monitoring.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1220,78 +696,8 @@
       </div>
     </section>
 
-    <!--  Recent news Section -->
-    <section class="Recent-news bg-light-gray py-5 py-lg-11 py-xl-12">
-      <div class="container">
-        <div class="d-flex flex-column gap-5 gap-xl-11">
-          <div class="row gap-7 gap-xl-0">
-            <div class="col-xl-4 col-xxl-4">
-              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
-                data-aos-duration="1000">
-                <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">09</span>
-                <hr class="border-line bg-white">
-                <span class="badge text-bg-dark">Resources</span>
-              </div>
-            </div>
-            <div class="col-xl-8 col-xxl-7">
-              <div class="row">
-                <div class="col-xxl-8">
-                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-                    data-aos-duration="1000">
-                    <h2 class="mb-0">Recent news</h2>
-                    <p class="fs-5 mb-0 text-opacity-70">Explore the latest trends, bold projects, and creative insights
-                      from our agency—shaping the future of branding, digital experiences, and storytelling.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-6 mb-7 mb-xl-0">
-              <div class="resources d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="1000">
-                <a href="blog-detail.html"
-                  class="resources-img resources-img-first position-relative overflow-hidden d-block">
-                  <img src="../assets/images/resources/resources-1.jpg" alt="resources" class="img-fluid">
-                </a>
-                <div class="resources-details">
-                  <p class="mb-0">Dec 24, 2025</p>
-                  <h4 class="mb-0">A campaign that connects</h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-              <div class="resources d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="200"
-                data-aos-duration="1000">
-                <a href="blog-detail.html" class="resources-img position-relative overflow-hidden d-block">
-                  <img src="../assets/images/resources/resources-2.jpg" alt="resources" class="img-fluid">
-                </a>
-                <div class="resources-details">
-                  <p class="mb-0">Dec 24, 2025</p>
-                  <h4 class="mb-0">An breaking boundaries our latest brand redesign</h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-              <div class="resources d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="300"
-                data-aos-duration="1000">
-                <a href="blog-detail.html" class="resources-img position-relative overflow-hidden d-block">
-                  <img src="../assets/images/resources/resources-3.jpg" alt="resources" class="img-fluid">
-                </a>
-                <div class="resources-details">
-                  <p class="mb-0">Dec 24, 2025</p>
-                  <h4 class="mb-0">Recognized for design</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--  Get in touch Section -->
-    <section class="get-in-touch py-5 py-lg-11 py-xl-12">
+    <!--  Get in touch Section (Section 06) -->
+    <section class="get-in-touch py-5 py-lg-11 py-xl-12" id="contact">
       <div class="container">
         <div class="d-flex flex-column gap-5 gap-xl-10">
           <div class="row gap-7 gap-xl-0">
@@ -1299,7 +705,7 @@
               <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">10</span>
+                  class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">06</span>
                 <hr class="border-line bg-white">
                 <span class="badge text-bg-dark">Contact us</span>
               </div>
@@ -1309,37 +715,51 @@
                 <div class="col-xxl-8">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0">Get in touch</h2>
+                    <h2 class="mb-0">Start a project with Sitely</h2>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row justify-content-between gap-7 gap-xl-0">
-            <div class="col-xl-3">
-              <p class="mb-0 fs-5" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">Let’s collaborate
-                and create something amazing! Tell me about your project—I’m all
-                ears.</p>
+            <div class="col-xl-4">
+              <div class="d-flex flex-column gap-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                <p class="mb-0 fs-5 text-dark opacity-85">
+                  Have an upcoming application, digital platform, or automation challenge? Tell us about your vision—our engineering team is ready to collaborate.
+                </p>
+                <div class="pt-3 border-top">
+                  <p class="mb-1 text-muted fs-3">Direct Studio Inquiry</p>
+                  <a href="mailto:habban.madani786@gmail.com" class="fs-5 text-dark fw-bold text-decoration-none hstack gap-2">
+                    <iconify-icon icon="lucide:mail" class="text-primary fs-6"></iconify-icon>
+                    habban.madani786@gmail.com
+                  </a>
+                </div>
+                <div>
+                  <p class="mb-1 text-muted fs-3">Parent Studio</p>
+                  <p class="mb-0 fs-6 text-dark fw-medium">Powered by Wuaze Studio</p>
+                </div>
+              </div>
             </div>
-            <div class="col-xl-8">
-              <form class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div class="col-xl-7">
+              <form class="sitely-contact-form d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div>
-                  <input type="text" class="form-control border-bottom border-dark" id="formGroupExampleInput"
-                    placeholder="Name">
+                  <label for="formName" class="form-label text-muted fs-3 mb-1">Your Name</label>
+                  <input type="text" class="form-control" id="formName" placeholder="e.g. Alex Morgan" required>
                 </div>
                 <div>
-                  <input type="email" class="form-control border-bottom border-dark" id="exampleInputEmail1"
-                    placeholder="Email" aria-describedby="emailHelp">
+                  <label for="formEmail" class="form-label text-muted fs-3 mb-1">Work Email</label>
+                  <input type="email" class="form-control" id="formEmail" placeholder="e.g. alex@company.com" required>
                 </div>
                 <div>
-                  <textarea class="form-control border-bottom border-dark" id="exampleFormControlTextarea1"
-                    placeholder="Tell us about your project" rows="3"></textarea>
+                  <label for="formMessage" class="form-label text-muted fs-3 mb-1">Project Details & Goals</label>
+                  <textarea class="form-control" id="formMessage" placeholder="Tell us about your product, required features, and approximate timeline..." rows="3" required></textarea>
                 </div>
                 <button type="submit" class="btn w-100 justify-content-center">
-                  <span class="btn-text">Submit message</span>
+                  <span class="btn-text">Submit Inquiry</span>
                   <iconify-icon icon="lucide:arrow-up-right"
                     class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
                 </button>
+                <div class="form-feedback-alert"></div>
               </form>
             </div>
           </div>
@@ -1349,65 +769,65 @@
 
   </div>
 
+  <!-- Footer -->
   <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
     <div class="container">
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
-          <div class="d-flex flex-column gap-8 pe-xl-5">
-            <h2 class="mb-0 text-white">Build something together?</h2>
+          <div class="d-flex flex-column gap-7 pe-xl-5">
+            <a href="index.html" class="logo-white" aria-label="Sitely Home">
+              <img src="../assets/images/logos/logo-white.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46">
+            </a>
+            <h3 class="mb-0 text-white fw-medium">Engineering exceptional digital platforms and applications.</h3>
             <div class="d-flex flex-column gap-2">
-              <a href="https://www.wrappixel.com/" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
-                <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary"></iconify-icon>
-                info@wrappixel.com
+              <a href="mailto:habban.madani786@gmail.com" class="link-hover hstack gap-3 text-white fs-5 text-decoration-none">
+                <iconify-icon icon="lucide:mail" class="fs-7 text-primary"></iconify-icon>
+                habban.madani786@gmail.com
               </a>
-              <a href="https://maps.app.goo.gl/hpDp81fqzGt5y4bC8" target="_blank"
-                class="link-hover hstack gap-3 text-white fs-5">
-                <iconify-icon icon="lucide:map-pin" class="fs-7 text-primary"></iconify-icon>
-                info@wrappixel.com
-              </a>
+              <p class="text-white text-opacity-50 fs-4 mb-0">Official Digital Services Studio powered by Wuaze Studio.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
+          <p class="text-white fw-bold fs-5 mb-4">Navigation</p>
           <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-            <li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>
-            <li><a class="link-hover fs-5 text-white" href="about-us.html">About</a></li>
-            <li><a class="link-hover fs-5 text-white" id="services" href="#services">Services</a></li>
-            <li><a class="link-hover fs-5 text-white" href="projects.html">Work</a></li>
-            <li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms</a></li>
-            <li><a class="link-hover fs-5 text-white" href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="index.html">Home</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="about-us.html">About Studio</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="#services">Services</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="projects.html">Portfolio</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
+          <p class="text-white fw-bold fs-5 mb-4">Legal</p>
           <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-            <li><a class="link-hover fs-5 text-white" href="#!">Facebook</a></li>
-            <li><a class="link-hover fs-5 text-white" href="#!">Instagram</a></li>
-            <li><a class="link-hover fs-5 text-white" href="#!">Twitter</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="terms-and-conditions.html">Terms & Conditions</a></li>
+            <li><a class="link-hover fs-5 text-white text-decoration-none" href="404.html">404 Page</a></li>
           </ul>
         </div>
         <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
-          <p class="mb-0 text-white text-opacity-70 text-md-end">© Studiova copyright 2025</p>
+          <p class="text-white fw-bold fs-5 mb-4">Studio</p>
+          <p class="text-white text-opacity-70 mb-3 fs-4">Sitely is designed and engineered by Wuaze Studio, delivering bespoke digital products worldwide.</p>
+          <p class="mb-0 text-white text-opacity-70">© 2026 Sitely. All rights reserved.</p>
         </div>
       </div>
     </div>
-  <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Distributed by <a class="text-white" href="https://www.themewagon.com" target="_blank">ThemeWagon</a></p>
   </footer>
 
   <div class="get-template hstack gap-2">
     <button class="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
-      id="scrollToTopBtn">
-      <iconify-icon icon="lucide:arrow-up" class="fs-7 text-dark"></iconify-icon>
+      id="scrollToTopBtn" aria-label="Scroll to top">
+      <iconify-icon icon="lucide:arrow-up" class="fs-7 text-white"></iconify-icon>
     </button>
   </div>
-
 
   <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
   <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="../assets/libs/aos-master/dist/aos.js"></script>
   <script src="../assets/js/custom.js"></script>
-  <!-- solar icons -->
+  <!-- Solar icons -->
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 </body>
 

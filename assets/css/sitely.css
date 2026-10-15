@@ -1,0 +1,384 @@
+/**
+ * Sitely Official Theme Styles
+ * Powered by Wuaze Studio
+ * Brand Palette:
+ * - Midnight Navy: #101A33
+ * - Slate Navy: #1B2742
+ * - Cloud White: #F7F8FC
+ * - Graphite: #252B3A
+ * - Coral: #F06449
+ * - Soft Pink: #F472B6
+ */
+
+:root {
+  --sitely-midnight-navy: #101A33;
+  --sitely-slate-navy: #1B2742;
+  --sitely-cloud-white: #F7F8FC;
+  --sitely-graphite: #252B3A;
+  --sitely-coral: #F06449;
+  --sitely-soft-pink: #F472B6;
+}
+
+/* Base Body & Typography */
+body {
+  font-family: var(--bs-font-sans-serif);
+  color: #252B3A;
+  background-color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Background utilities */
+.bg-dark {
+  background-color: var(--sitely-midnight-navy) !important;
+}
+
+.bg-slate {
+  background-color: var(--sitely-slate-navy) !important;
+}
+
+.bg-light-gray {
+  background-color: var(--sitely-cloud-white) !important;
+}
+
+.bg-primary {
+  background-color: var(--sitely-coral) !important;
+}
+
+.text-primary {
+  color: var(--sitely-coral) !important;
+}
+
+.text-pink {
+  color: var(--sitely-soft-pink) !important;
+}
+
+.border-primary {
+  border-color: var(--sitely-coral) !important;
+}
+
+/* Fixed Header Glassmorphism */
+.header {
+  transition: all 0.35s ease;
+}
+
+.header.fixed-header {
+  padding: 16px 0 !important;
+  background-color: rgba(16, 26, 51, 0.94) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  box-shadow: 0 8px 32px rgba(16, 26, 51, 0.25) !important;
+  border-top-color: var(--sitely-coral) !important;
+}
+
+.header.fixed-header .logo .logo-white {
+  display: block !important;
+}
+
+.header.fixed-header .logo .logo-dark {
+  display: none !important;
+}
+
+.header.fixed-header .toggle-menu {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+.header.fixed-header .toggle-menu .menu-icon {
+  color: #FFFFFF !important;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(16, 26, 51, 0.2);
+  border: 1px solid rgba(37, 43, 58, 0.1);
+  min-width: 320px;
+}
+
+.header-menu .header-item .header-link {
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.header-menu .header-item .header-link:hover,
+.header-menu .header-item .header-link.active {
+  color: var(--sitely-coral) !important;
+  transform: translateX(4px);
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--sitely-coral);
+  color: #FFFFFF;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 14px rgba(240, 100, 73, 0.28);
+}
+
+.btn .btn-text {
+  color: #FFFFFF !important;
+}
+
+.btn:hover {
+  background-color: var(--sitely-midnight-navy) !important;
+  box-shadow: 0 6px 20px rgba(16, 26, 51, 0.25) !important;
+  transform: translateY(-1px);
+}
+
+.btn:hover .btn-text {
+  color: #FFFFFF !important;
+}
+
+.btn .btn-icon {
+  background-color: #FFFFFF !important;
+  color: var(--sitely-midnight-navy) !important;
+}
+
+.btn-secondary {
+  background-color: var(--sitely-slate-navy);
+  border-color: var(--sitely-slate-navy);
+}
+
+.btn-outline-primary {
+  color: var(--sitely-coral);
+  border-color: var(--sitely-coral);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--sitely-coral);
+  color: #FFFFFF;
+}
+
+/* Hero Section Adjustments */
+.banner-section {
+  background-color: var(--sitely-midnight-navy);
+}
+
+.banner-section::before {
+  background: linear-gradient(180deg, rgba(16, 26, 51, 0.65) 0%, rgba(16, 26, 51, 0.90) 100%) !important;
+}
+
+.banner-inner-section {
+  background-color: var(--sitely-midnight-navy);
+}
+
+.banner-inner-section::before {
+  background: linear-gradient(180deg, rgba(16, 26, 51, 0.75) 0%, rgba(16, 26, 51, 0.92) 100%) !important;
+}
+
+/* Round Badge & Index Badges */
+.round-36 {
+  background-color: var(--sitely-coral) !important;
+  color: #FFFFFF !important;
+  font-weight: 700;
+}
+
+.badge.text-bg-dark {
+  background-color: var(--sitely-slate-navy) !important;
+  color: var(--sitely-cloud-white) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Portfolio Cards */
+.portfolio {
+  transition: transform 0.35s ease;
+}
+
+.portfolio:hover {
+  transform: translateY(-4px);
+}
+
+.portfolio-img {
+  border-radius: 18px;
+}
+
+.portfolio-img > img {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.portfolio-img:hover > img {
+  transform: scale(1.05);
+}
+
+.portfolio-overlay {
+  background-color: rgba(16, 26, 51, 0.75) !important;
+  backdrop-filter: blur(4px);
+  border-radius: 18px;
+}
+
+.portfolio-overlay a {
+  background-color: var(--sitely-coral) !important;
+  box-shadow: 0 8px 24px rgba(240, 100, 73, 0.45);
+  transition: transform 0.25s ease;
+}
+
+.portfolio-overlay a:hover {
+  transform: translate(-50%, -50%) scale(1.1) !important;
+}
+
+.portfolio-overlay a iconify-icon {
+  color: #FFFFFF !important;
+}
+
+.portfolio-details h3 {
+  font-weight: 700;
+  color: var(--sitely-midnight-navy);
+}
+
+.portfolio-details .badge {
+  background-color: rgba(37, 43, 58, 0.05);
+  color: var(--sitely-graphite) !important;
+  border-color: rgba(37, 43, 58, 0.15) !important;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Services Tabs */
+.services {
+  background-color: var(--sitely-midnight-navy) !important;
+}
+
+.services-tab .tab-content img {
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.services-tab .nav-tabs .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.65) !important;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.services-tab .nav-tabs .nav-item .nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.services-tab .nav-tabs .nav-item .nav-link.active {
+  color: var(--sitely-coral) !important;
+}
+
+/* Cards */
+.card.bg-primary {
+  background: linear-gradient(145deg, #F06449 0%, #D84A30 100%) !important;
+  border: none;
+  border-radius: 24px;
+  color: #FFFFFF !important;
+}
+
+.card.bg-primary h2,
+.card.bg-primary h4,
+.card.bg-primary h5,
+.card.bg-primary p {
+  color: #FFFFFF !important;
+}
+
+.card.bg-dark {
+  background-color: var(--sitely-slate-navy) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+
+.card {
+  border-radius: 24px;
+  border: 1px solid rgba(37, 43, 58, 0.08);
+  box-shadow: 0 10px 30px rgba(16, 26, 51, 0.04);
+}
+
+/* Accordion */
+.accordion-item {
+  border-color: rgba(37, 43, 58, 0.12) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--sitely-coral) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-color: var(--sitely-coral) !important;
+}
+
+/* Contact Form Input Fields */
+.form-control {
+  background-color: transparent !important;
+  color: var(--sitely-midnight-navy);
+  border-bottom: 2px solid rgba(37, 43, 58, 0.2) !important;
+  padding: 16px 4px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.form-control:focus {
+  border-bottom-color: var(--sitely-coral) !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+/* Form Submission Notice */
+.form-feedback-alert {
+  display: none;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.form-feedback-alert.success {
+  background-color: rgba(240, 100, 73, 0.1);
+  border: 1px solid var(--sitely-coral);
+  color: var(--sitely-midnight-navy);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer */
+.footer {
+  background-color: #0B1224 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-menu a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  transition: all 0.2s ease;
+}
+
+.footer-menu a:hover {
+  color: var(--sitely-coral) !important;
+  transform: translateX(4px);
+}
+
+/* Scroll To Top Button */
+#scrollToTopBtn {
+  background-color: var(--sitely-coral) !important;
+  box-shadow: 0 8px 24px rgba(240, 100, 73, 0.35);
+  border: none;
+}
+
+#scrollToTopBtn iconify-icon {
+  color: #FFFFFF !important;
+}
+
+#scrollToTopBtn:hover {
+  background-color: var(--sitely-midnight-navy) !important;
+  transform: translateY(-3px);
+}
+
+/* Subtle Parallax / Motion Tweaks */
+.animate-spin {
+  animation: spin 8s linear infinite !important;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

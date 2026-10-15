@@ -2,28 +2,33 @@
 // Variables Style
 // ----------------------------------------------
 
-// colors
+// Sitely Brand Palette
+$midnight-navy: #101A33 !default;
+$slate-navy: #1B2742 !default;
+$cloud-white: #F7F8FC !default;
+$graphite: #252B3A !default;
+$coral: #F06449 !default;
+$soft-pink: #F472B6 !default;
+
+// Colors
 $white: #fff !default;
-$gray-100: rgba(31, 42, 46, 0.12) !default;
-$gray-200: #F4F8FA !default;
-$gray-300: rgba(31, 42, 46, 0.6) !default;
-$gray-400: rgba(31, 42, 46, 0.7) !default;
-$gray-500: #1F2A2E !default;
+$gray-100: rgba(37, 43, 58, 0.12) !default;
+$gray-200: $cloud-white !default;
+$gray-300: rgba(37, 43, 58, 0.6) !default;
+$gray-400: rgba(37, 43, 58, 0.7) !default;
+$gray-500: $graphite !default;
 $black: #000 !default;
 
-// Color
-$blue: #C1FF72 !default;
-
 // Main Colors
-$primary: $blue !default;
-$secondary: #1f2a2e !default;
+$primary: $coral !default;
+$secondary: $slate-navy !default;
 $light: $gray-100 !default;
 $muted: $gray-300 !default;
-$dark: $gray-500 !default;
+$dark: $midnight-navy !default;
 $dark-light: $gray-400 !default;
-$light-gray: $gray-200 !default; 
+$light-gray: $cloud-white !default; 
 
-// Theme Colorss
+// Theme Colors
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
@@ -32,6 +37,8 @@ $theme-colors: (
   "muted": $muted,
   "dark-light": $dark-light,
   "light-gray": $light-gray,
+  "pink": $soft-pink,
+  "graphite": $graphite,
   ) !default;
 
 // Spacer
