@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-hampers" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF8F5"/>
+      <stop offset="50%" stop-color="#F7ECE8"/>
+      <stop offset="100%" stop-color="#EEDCD5"/>
+    </linearGradient>
+    <linearGradient id="sage-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93B19B"/>
+      <stop offset="100%" stop-color="#5E7F67"/>
+    </linearGradient>
+    <linearGradient id="blush-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2A4AF"/>
+      <stop offset="100%" stop-color="#D97D8E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="16" fill="url(#bg-hampers)"/>
+  
+  <!-- Soft Organic Swirl Background -->
+  <circle cx="400" cy="205" r="160" fill="#FFFFFF" fill-opacity="0.6"/>
+  <circle cx="400" cy="205" r="110" fill="none" stroke="#D97D8E" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="4,4"/>
+  
+  <!-- Central Gift & Resin Hexagon Emblem -->
+  <g transform="translate(400, 205)">
+    <!-- Hexagon seal -->
+    <polygon points="0,-82 71,-41 71,41 0,82 -71,41 -71,-41" fill="#FFFFFF" stroke="url(#sage-grad)" stroke-width="3" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.06))"/>
+    <!-- Ribbon loops -->
+    <path d="M -30 -45 C -45 -70 -15 -80 0 -50 C 15 -80 45 -70 30 -45 Z" fill="url(#blush-grad)"/>
+    <!-- Box Lines -->
+    <rect x="-38" y="-30" width="76" height="66" rx="6" fill="#F8F3EF" stroke="url(#sage-grad)" stroke-width="2"/>
+    <line x1="0" y1="-30" x2="0" y2="36" stroke="url(#blush-grad)" stroke-width="6"/>
+    <line x1="-38" y1="3" x2="38" y2="3" stroke="url(#blush-grad)" stroke-width="6"/>
+    <!-- Monogram HH -->
+    <text x="0" y="65" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#4A3B32" text-anchor="middle" letter-spacing="1">H &#8226; H</text>
+  </g>
+  
+  <!-- Brand Typography -->
+  <text x="400" y="360" font-family="'Manrope', -apple-system, sans-serif" font-size="30" font-weight="800" fill="#3D352E" text-anchor="middle" letter-spacing="3">HAPPY HAMPERS</text>
+  <text x="400" y="394" font-family="'Manrope', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#5E7F67" text-anchor="middle" letter-spacing="3">BESPOKE GIFTS &amp; RESIN ART &#8226; BAHADURABAD</text>
+  
+  <!-- Accent Line with Heart/Flower -->
+  <line x1="320" y1="418" x2="480" y2="418" stroke="#D97D8E" stroke-width="2" stroke-linecap="round"/>
+</svg>

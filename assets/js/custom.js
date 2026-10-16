@@ -148,14 +148,26 @@ $(function () {
     $(window).on("scroll", triggerCounters);
     triggerCounters();
 
-    // 4. Smooth Scroll for Anchor Links
+    // 4. Smooth Scroll for Anchor Links & Auto-close Menu
+    $('.dropdown-menu .header-link, .dropdown-menu a').on('click', function () {
+        var $dropdown = $(this).closest('.dropdown-menu');
+        var toggleBtn = $dropdown.siblings('.toggle-menu')[0];
+        if (toggleBtn && window.bootstrap && bootstrap.Dropdown) {
+            var inst = bootstrap.Dropdown.getInstance(toggleBtn);
+            if (inst) { inst.hide(); }
+        }
+    });
+
     $('a[href^="#"]').on('click', function (e) {
-        var target = $(this.getAttribute('href'));
-        if (target.length) {
-            e.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top - 90
-            }, 600);
+        var href = this.getAttribute('href');
+        if (href && href !== '#' && href.length > 1) {
+            var target = $(href);
+            if (target.length) {
+                e.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top - 90
+                }, 600);
+            }
         }
     });
 

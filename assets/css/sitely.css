@@ -617,29 +617,88 @@ body {
 }
 
 /* ==========================================================================
-   Blog / Helpful Tips Cards
+   Blog / Helpful Tips Cards & Strict Readability / Contrast Standards
    ========================================================================== */
 .tip-card {
-  background-color: #FFFFFF;
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
+/* Light Card Variant */
+.tip-card.tip-card-light,
+.tip-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  color: #101A33;
+}
+
+.tip-card.tip-card-light:hover,
 .tip-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
+.tip-card .tip-title {
+  color: #101A33 !important;
+}
+
+.tip-card .tip-desc {
+  color: #4A5568 !important;
+}
+
+.tip-card .tip-link {
+  color: #101A33 !important;
+}
+
+.tip-card .tip-link:hover {
+  color: var(--sitely-coral) !important;
+}
+
+/* Dark Card Variant (High Contrast Standards) */
+.tip-card.tip-card-dark {
+  background-color: #1B2742 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
+  color: #F7F8FC !important;
+}
+
+.tip-card.tip-card-dark:hover {
+  transform: translateY(-4px);
+  border-color: rgba(240, 100, 73, 0.6) !important;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35) !important;
+}
+
+.tip-card.tip-card-dark .tip-badge {
+  background: rgba(240, 100, 73, 0.22) !important;
+  color: #FF8A73 !important;
+  border: 1px solid rgba(240, 100, 73, 0.45) !important;
+}
+
+.tip-card.tip-card-dark .tip-title {
+  color: #FFFFFF !important;
+}
+
+.tip-card.tip-card-dark .tip-desc {
+  color: rgba(247, 248, 252, 0.85) !important;
+}
+
+.tip-card.tip-card-dark .tip-link {
+  color: #F7F8FC !important;
+}
+
+.tip-card.tip-card-dark .tip-link:hover {
+  color: #FF7D66 !important;
+}
+
 .tip-img-container {
   width: 100%;
-  height: 210px;
-  background-color: var(--sitely-slate-navy);
+  height: 220px;
+  background-color: #141E33;
   overflow: hidden;
   position: relative;
 }
@@ -662,7 +721,7 @@ body {
   flex-grow: 1;
 }
 
-/* Concept Disclaimer Banner */
+/* Concept Disclaimer Tag */
 .concept-tag {
   display: inline-flex;
   align-items: center;
@@ -676,4 +735,242 @@ body {
   color: var(--sitely-coral);
   border: 1px solid rgba(240, 100, 73, 0.3);
 }
+
+/* ==========================================================================
+   Portfolio Logo Card Display
+   ========================================================================== */
+.portfolio-logo-card {
+  background: #FFFFFF;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-logo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.09);
+  border-color: rgba(240, 100, 73, 0.4);
+}
+
+.portfolio-logo-frame {
+  width: 100%;
+  height: 240px;
+  background: #141E33;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-logo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-logo-card:hover .portfolio-logo-frame img {
+  transform: scale(1.04);
+}
+
+/* ==========================================================================
+   Why Sitely Bento Grid
+   ========================================================================== */
+.why-sitely-bento {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+.why-bento-card {
+  border-radius: 1.25rem;
+  padding: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-bento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.why-bento-dark {
+  background-color: #101A33;
+  color: #F7F8FC;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.why-bento-slate {
+  background-color: #1B2742;
+  color: #F7F8FC;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.why-bento-light {
+  background-color: #FFFFFF;
+  color: #101A33;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.why-bento-coral {
+  background: linear-gradient(135deg, #F06449 0%, #D84D32 100%);
+  color: #FFFFFF;
+}
+
+.why-icon-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+/* ==========================================================================
+   About Page: Approach Timeline & Core Focus Diagrams
+   ========================================================================== */
+.approach-timeline {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .approach-timeline {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.approach-step-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 1rem;
+  padding: 1.75rem 1.5rem;
+  position: relative;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  height: 100%;
+}
+
+.approach-step-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--sitely-coral);
+}
+
+.approach-step-num {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: var(--sitely-coral);
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.core-focus-card {
+  background: #FFFFFF;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.core-focus-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+}
+
+.core-focus-diagram {
+  background: #141E33;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #F7F8FC;
+  font-family: 'SF Mono', Consolas, monospace;
+  font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   Floating Action Stack (WhatsApp + Scroll to Top)
+   ========================================================================== */
+.floating-actions-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.floating-whatsapp-btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #25D366;
+  color: #FFFFFF !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+}
+
+.floating-whatsapp-btn:hover {
+  transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.55);
+  color: #FFFFFF !important;
+}
+
+.floating-whatsapp-btn iconify-icon {
+  font-size: 30px;
+}
+
+.floating-actions-container #scrollToTopBtn {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: var(--sitely-coral);
+  color: #FFFFFF;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.2s ease;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
+  padding: 0;
+}
+
+.floating-actions-container #scrollToTopBtn:hover {
+  transform: translateY(-2px);
+  background-color: #D94F35;
+}
+
+/* Top Bar Active Nav Indicator */
+.header-link.active {
+  color: var(--sitely-coral) !important;
+}
+
+.header-link.active img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(85%) saturate(1915%) hue-rotate(334deg) brightness(97%) contrast(92%);
+}
+
 
