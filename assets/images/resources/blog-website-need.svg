@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <rect width="600" height="380" fill="#141E33"/>
+  <rect x="50" y="40" width="500" height="300" rx="12" fill="#1B2742" stroke="#2D3D5E" stroke-width="2"/>
+  <path d="M50 52 Q50 40 62 40 L538 40 Q550 40 550 52 L550 78 L50 78 Z" fill="#101A33"/>
+  <circle cx="75" cy="59" r="5" fill="#F06449"/>
+  <circle cx="92" cy="59" r="5" fill="#EAB308"/>
+  <circle cx="109" cy="59" r="5" fill="#22C55E"/>
+  <rect x="135" y="50" width="310" height="18" rx="9" fill="#1B2742"/>
+  <text x="290" y="63" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">yourbusiness.pk &#8226; 24/7 Digital Storefront</text>
+  
+  <rect x="80" y="105" width="440" height="50" rx="8" fill="#243354"/>
+  <text x="100" y="136" fill="#F7F8FC" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Open 24/7 Even When Your Physical Shop is Closed</text>
+  
+  <rect x="80" y="175" width="135" height="135" rx="8" fill="#101A33" stroke="#33476E" stroke-width="1"/>
+  <text x="147" y="215" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Find On Google</text>
+  <text x="147" y="245" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Local map listing</text>
+  <text x="147" y="265" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">&amp; search results</text>
+  
+  <rect x="232" y="175" width="135" height="135" rx="8" fill="#101A33" stroke="#33476E" stroke-width="1"/>
+  <text x="299" y="215" fill="#F06449" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Clear Prices</text>
+  <text x="299" y="245" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Save time from</text>
+  <text x="299" y="265" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">repeated DMs</text>
+  
+  <rect x="385" y="175" width="135" height="135" rx="8" fill="#101A33" stroke="#33476E" stroke-width="1"/>
+  <text x="452" y="215" fill="#22C55E" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">WhatsApp Orders</text>
+  <text x="452" y="245" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Direct enquiries</text>
+  <text x="452" y="265" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">to your phone</text>
+</svg>

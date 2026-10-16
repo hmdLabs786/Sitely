@@ -55,6 +55,68 @@ $(function () {
         });
     }
 
+    // 2b. Team Carousel (8-member all-male team carousel)
+    var $teamCarousel = $('.team-slider .owl-carousel');
+    if ($teamCarousel.length) {
+        $teamCarousel.owlCarousel({
+            loop: true,
+            margin: 24,
+            nav: true,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 4500,
+            autoplayHoverPause: true,
+            smartSpeed: 600,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 16
+                },
+                576: {
+                    items: 2,
+                    margin: 20
+                },
+                992: {
+                    items: 3,
+                    margin: 24
+                },
+                1200: {
+                    items: 4,
+                    margin: 24
+                }
+            }
+        });
+    }
+
+    // 2c. Helpful Tips / Blog Carousel (5 articles, continuous, pause on hover)
+    var $blogCarousel = $('.blog-slider .owl-carousel');
+    if ($blogCarousel.length) {
+        $blogCarousel.owlCarousel({
+            loop: true,
+            margin: 24,
+            nav: true,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            smartSpeed: 700,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 16
+                },
+                768: {
+                    items: 2,
+                    margin: 20
+                },
+                1200: {
+                    items: 3,
+                    margin: 24
+                }
+            }
+        });
+    }
+
     // 3. Animated Number Counters
     var counted = false;
     function triggerCounters() {

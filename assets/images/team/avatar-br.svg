@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+    <rect width="240" height="240" rx="120" fill="#272216"/>
+    <circle cx="120" cy="120" r="106" fill="none" stroke="#EAB308" stroke-width="3" stroke-opacity="0.4"/>
+    <circle cx="120" cy="120" r="92" fill="#272216" stroke="#EAB308" stroke-width="1.5" stroke-opacity="0.8"/>
+    <text x="120" y="138" fill="#EAB308" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" text-anchor="middle" letter-spacing="2">BR</text>
+  </svg>

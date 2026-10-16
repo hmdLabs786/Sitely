@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <rect width="600" height="380" fill="#141E33"/>
+  <rect x="50" y="40" width="500" height="300" rx="12" fill="#1B2742" stroke="#2D3D5E" stroke-width="2"/>
+  
+  <text x="80" y="85" fill="#F06449" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">HIRING CHECKLIST FOR BUSINESS OWNERS</text>
+  <text x="80" y="112" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="800">5 Essential Things to Clarify First</text>
+
+  <rect x="80" y="135" width="440" height="32" rx="6" fill="#101A33"/>
+  <text x="100" y="156" fill="#22C55E" font-family="system-ui, sans-serif" font-size="13" font-weight="700">&#10003; 1. Mobile Responsiveness</text>
+  <text x="310" y="156" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Does it look great on phones?</text>
+
+  <rect x="80" y="175" width="440" height="32" rx="6" fill="#101A33"/>
+  <text x="100" y="196" fill="#22C55E" font-family="system-ui, sans-serif" font-size="13" font-weight="700">&#10003; 2. Code &amp; Domain Ownership</text>
+  <text x="310" y="196" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Will you own your website files?</text>
+
+  <rect x="80" y="215" width="440" height="32" rx="6" fill="#101A33"/>
+  <text x="100" y="236" fill="#22C55E" font-family="system-ui, sans-serif" font-size="13" font-weight="700">&#10003; 3. Realistic Timelines</text>
+  <text x="310" y="236" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Clear weekly milestones</text>
+
+  <rect x="80" y="255" width="440" height="32" rx="6" fill="#101A33"/>
+  <text x="100" y="276" fill="#22C55E" font-family="system-ui, sans-serif" font-size="13" font-weight="700">&#10003; 4. Post-Launch Support</text>
+  <text x="310" y="276" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Assistance after going live</text>
+</svg>

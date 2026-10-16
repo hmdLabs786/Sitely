@@ -515,3 +515,165 @@ body {
 .hero-code-card .syntax-var { color: #93C5FD; }
 .hero-code-card .syntax-prop { color: var(--sitely-soft-pink); }
 .hero-code-card .syntax-string { color: #86EFAC; }
+
+/* ==========================================================================
+   Tools & Technology Marquee
+   ========================================================================== */
+.tools-marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 1.5rem 0;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.tools-track {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  animation: marqueeTools 35s linear infinite;
+}
+
+.tools-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeTools {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tools-track {
+    animation: none;
+    overflow-x: auto;
+  }
+}
+
+.tool-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 9999px;
+  background-color: var(--sitely-slate-navy);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: transform 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+  white-space: nowrap;
+}
+
+.tool-chip:hover {
+  transform: translateY(-2px);
+  border-color: var(--sitely-coral);
+  background-color: var(--sitely-graphite);
+}
+
+.tool-chip img {
+  height: 28px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* ==========================================================================
+   Team Avatar & Carousel Cards
+   ========================================================================== */
+.team-member-card {
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.team-avatar-wrapper {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 1.25rem auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-avatar-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   Blog / Helpful Tips Cards
+   ========================================================================== */
+.tip-card {
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.tip-img-container {
+  width: 100%;
+  height: 210px;
+  background-color: var(--sitely-slate-navy);
+  overflow: hidden;
+  position: relative;
+}
+
+.tip-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.tip-card:hover .tip-img-container img {
+  transform: scale(1.03);
+}
+
+.tip-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Concept Disclaimer Banner */
+.concept-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 9999px;
+  background-color: rgba(240, 100, 73, 0.12);
+  color: var(--sitely-coral);
+  border: 1px solid rgba(240, 100, 73, 0.3);
+}
+

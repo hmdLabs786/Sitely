@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <rect width="600" height="380" fill="#141E33"/>
+  <rect x="50" y="40" width="500" height="300" rx="12" fill="#1B2742" stroke="#2D3D5E" stroke-width="2"/>
+  
+  <rect x="80" y="75" width="210" height="230" rx="8" fill="#101A33" stroke="#E11D48" stroke-width="1.5"/>
+  <text x="185" y="115" fill="#F43F5E" font-family="system-ui, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Social Media Alone</text>
+  <text x="100" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Posts get lost in feeds</text>
+  <text x="100" y="185" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Hundreds of "Price?" DMs</text>
+  <text x="100" y="215" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; You don't own the platform</text>
+  <text x="100" y="245" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Algorithm changes hurt reach</text>
+  
+  <text x="300" y="195" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="900" text-anchor="middle">+</text>
+
+  <rect x="310" y="75" width="210" height="230" rx="8" fill="#101A33" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="415" y="115" fill="#22C55E" font-family="system-ui, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Social + Website</text>
+  <text x="330" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Clear catalog with sizes</text>
+  <text x="330" y="185" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Organized WhatsApp orders</text>
+  <text x="330" y="215" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Permanent web address</text>
+  <text x="330" y="245" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">&#8226; Builds lasting customer trust</text>
+</svg>

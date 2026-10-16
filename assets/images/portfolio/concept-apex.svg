@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgApex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2742"/>
+      <stop offset="100%" stop-color="#101A33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgApex)"/>
+  <rect x="40" y="30" width="720" height="440" rx="14" fill="#182238" stroke="#2A3859" stroke-width="2"/>
+  <path d="M40 44 Q40 30 54 30 L746 30 Q760 30 760 44 L760 72 L40 72 Z" fill="#101A33"/>
+  <circle cx="65" cy="51" r="5" fill="#F06449"/>
+  <circle cx="82" cy="51" r="5" fill="#EAB308"/>
+  <circle cx="99" cy="51" r="5" fill="#22C55E"/>
+  <rect x="130" y="42" width="460" height="18" rx="9" fill="#1B2742"/>
+  <text x="360" y="55" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">apexcareclinic.pk &#8226; Gulistan-e-Johar, Block 12, Karachi</text>
+
+  <rect x="60" y="86" width="680" height="46" rx="8" fill="#101A33"/>
+  <text x="80" y="114" fill="#F7F8FC" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Apex Care Clinic</text>
+  <text x="240" y="113" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">General Medicine</text>
+  <text x="380" y="113" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Pediatrics</text>
+  <text x="470" y="113" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Timings &amp; Map</text>
+  <rect x="590" y="96" width="130" height="26" rx="13" fill="#38BDF8"/>
+  <text x="655" y="113" fill="#0F172A" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Book Appointment</text>
+
+  <rect x="60" y="142" width="680" height="90" rx="8" fill="#202D49"/>
+  <text x="85" y="172" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">NEIGHBOURHOOD HEALTHCARE &#8226; GULISTAN-E-JOHAR</text>
+  <text x="85" y="200" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="800">Clear Timings, Doctor Profiles &amp; Fast Appointments</text>
+  <text x="85" y="220" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">No waiting lines &#8226; Submit appointment request online or WhatsApp reception</text>
+
+  <rect x="60" y="244" width="215" height="205" rx="8" fill="#131D31" stroke="#253554" stroke-width="1"/>
+  <rect x="72" y="254" width="191" height="85" rx="6" fill="#1E2A45"/>
+  <text x="167" y="301" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">[ General Physician ]</text>
+  <text x="75" y="360" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="700">General Consultation</text>
+  <text x="75" y="380" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Timings: 5:00 PM - 9:00 PM</text>
+  <text x="75" y="398" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Days: Monday to Saturday</text>
+  <rect x="75" y="415" width="185" height="22" rx="4" fill="#253554"/>
+  <text x="167" y="430" fill="#F7F8FC" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Enquire Appointment</text>
+
+  <rect x="292" y="244" width="215" height="205" rx="8" fill="#131D31" stroke="#253554" stroke-width="1"/>
+  <rect x="304" y="254" width="191" height="85" rx="6" fill="#1E2A45"/>
+  <text x="399" y="301" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">[ Child Specialist ]</text>
+  <text x="307" y="360" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Pediatric Care &amp; Vaccines</text>
+  <text x="307" y="380" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Timings: 6:00 PM - 8:30 PM</text>
+  <text x="307" y="398" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Days: Mon, Wed, Fri</text>
+  <rect x="307" y="415" width="185" height="22" rx="4" fill="#253554"/>
+  <text x="399" y="430" fill="#F7F8FC" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Enquire Appointment</text>
+
+  <rect x="525" y="244" width="215" height="205" rx="8" fill="#131D31" stroke="#253554" stroke-width="1"/>
+  <rect x="537" y="254" width="191" height="85" rx="6" fill="#1E2A45"/>
+  <text x="632" y="301" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">[ Dental Clinic ]</text>
+  <text x="540" y="360" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Dental Checkup &amp; Scaling</text>
+  <text x="540" y="380" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Timings: 6:00 PM - 9:30 PM</text>
+  <text x="540" y="398" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Days: Tuesday, Thursday, Saturday</text>
+  <rect x="540" y="415" width="185" height="22" rx="4" fill="#253554"/>
+  <text x="632" y="430" fill="#F7F8FC" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Enquire Appointment</text>
+</svg>

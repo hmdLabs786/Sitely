@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgAutoDesk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2742"/>
+      <stop offset="100%" stop-color="#101A33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgAutoDesk)"/>
+  <rect x="40" y="30" width="720" height="440" rx="14" fill="#182238" stroke="#2A3859" stroke-width="2"/>
+  <path d="M40 44 Q40 30 54 30 L746 30 Q760 30 760 44 L760 72 L40 72 Z" fill="#101A33"/>
+  <circle cx="65" cy="51" r="5" fill="#F06449"/>
+  <circle cx="82" cy="51" r="5" fill="#EAB308"/>
+  <circle cx="99" cy="51" r="5" fill="#22C55E"/>
+  <rect x="130" y="42" width="460" height="18" rx="9" fill="#1B2742"/>
+  <text x="360" y="55" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">autodesk.sitely.pk &#8226; Workflow Automation for Karachi Businesses</text>
+
+  <rect x="60" y="86" width="680" height="46" rx="8" fill="#101A33"/>
+  <text x="80" y="114" fill="#F7F8FC" font-family="system-ui, sans-serif" font-size="16" font-weight="700">AutoDesk Automation Engine</text>
+  <text x="360" y="113" fill="#22C55E" font-family="system-ui, sans-serif" font-size="12">&#8226; WhatsApp Form Bot</text>
+  <text x="510" y="113" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12">&#8226; Google Sheets Sync</text>
+  <rect x="635" y="96" width="85" height="26" rx="13" fill="#F06449"/>
+  <text x="677" y="113" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Live Demo</text>
+
+  <!-- Visual Workflow Diagram -->
+  <rect x="60" y="142" width="680" height="305" rx="8" fill="#131D31" stroke="#253554" stroke-width="1"/>
+  <text x="85" y="175" fill="#F06449" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">STEP-BY-STEP BUSINESS WORKFLOW</text>
+  <text x="85" y="200" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="800">How AutoDesk Eliminates Manual Data Entry for Small Businesses</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="225" width="180" height="195" rx="8" fill="#1B2742" stroke="#38BDF8" stroke-width="1.5"/>
+  <rect x="95" y="240" width="36" height="36" rx="18" fill="#38BDF8"/>
+  <text x="113" y="263" fill="#0F172A" font-family="system-ui, sans-serif" font-size="16" font-weight="800" text-anchor="middle">1</text>
+  <text x="95" y="298" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Enquiry Comes In</text>
+  <text x="95" y="322" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Customer sends a message on WhatsApp or fills the website contact form.</text>
+  <rect x="95" y="375" width="150" height="26" rx="4" fill="#101A33"/>
+  <text x="170" y="392" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Instant Intake</text>
+
+  <!-- Connector Arrow 1 -->
+  <path d="M 270 320 L 295 320" stroke="#F06449" stroke-width="2" stroke-dasharray="4,4"/>
+  <polygon points="295,316 303,320 295,324" fill="#F06449"/>
+
+  <!-- Step 2 -->
+  <rect x="310" y="225" width="180" height="195" rx="8" fill="#1B2742" stroke="#F06449" stroke-width="1.5"/>
+  <rect x="325" y="240" width="36" height="36" rx="18" fill="#F06449"/>
+  <text x="343" y="263" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="800" text-anchor="middle">2</text>
+  <text x="325" y="298" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Instant Auto-Reply</text>
+  <text x="325" y="322" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">System replies instantly with price list, catalog link, or availability confirmation.</text>
+  <rect x="325" y="375" width="150" height="26" rx="4" fill="#101A33"/>
+  <text x="400" y="392" fill="#F06449" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Zero Waiting Time</text>
+
+  <!-- Connector Arrow 2 -->
+  <path d="M 500 320 L 525 320" stroke="#22C55E" stroke-width="2" stroke-dasharray="4,4"/>
+  <polygon points="525,316 533,320 525,324" fill="#22C55E"/>
+
+  <!-- Step 3 -->
+  <rect x="540" y="225" width="180" height="195" rx="8" fill="#1B2742" stroke="#22C55E" stroke-width="1.5"/>
+  <rect x="555" y="240" width="36" height="36" rx="18" fill="#22C55E"/>
+  <text x="573" y="263" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="800" text-anchor="middle">3</text>
+  <text x="555" y="298" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Alerts Your Staff</text>
+  <text x="555" y="322" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Logs details directly to Google Sheets and sends staff a summary notification to call back.</text>
+  <rect x="555" y="375" width="150" height="26" rx="4" fill="#101A33"/>
+  <text x="630" y="392" fill="#22C55E" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Never Miss a Client</text>
+</svg>

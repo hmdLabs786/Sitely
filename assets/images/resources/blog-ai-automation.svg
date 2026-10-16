@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <rect width="600" height="380" fill="#141E33"/>
+  <rect x="50" y="40" width="500" height="300" rx="12" fill="#1B2742" stroke="#2D3D5E" stroke-width="2"/>
+  
+  <rect x="80" y="75" width="440" height="45" rx="8" fill="#202D49"/>
+  <text x="300" y="103" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Automating Repetitive Daily Tasks for Small Businesses</text>
+
+  <rect x="80" y="145" width="130" height="150" rx="8" fill="#101A33" stroke="#F06449" stroke-width="1"/>
+  <text x="145" y="185" fill="#F06449" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">WhatsApp Leads</text>
+  <text x="145" y="215" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Auto-sort messages</text>
+  <text x="145" y="235" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">by product or intent</text>
+
+  <path d="M 215 220 L 245 220" stroke="#F06449" stroke-width="2"/>
+
+  <rect x="250" y="145" width="130" height="150" rx="8" fill="#101A33" stroke="#EAB308" stroke-width="1"/>
+  <text x="315" y="185" fill="#EAB308" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Google Sheets</text>
+  <text x="315" y="215" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Log customer data</text>
+  <text x="315" y="235" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">without re-typing</text>
+
+  <path d="M 385 220 L 415 220" stroke="#22C55E" stroke-width="2"/>
+
+  <rect x="420" y="145" width="130" height="150" rx="8" fill="#101A33" stroke="#22C55E" stroke-width="1"/>
+  <text x="485" y="185" fill="#22C55E" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Staff Reminder</text>
+  <text x="485" y="215" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Alert your sales team</text>
+  <text x="485" y="235" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">to follow up</text>
+</svg>

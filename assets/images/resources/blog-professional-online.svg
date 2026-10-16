@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <rect width="600" height="380" fill="#141E33"/>
+  <rect x="50" y="40" width="500" height="300" rx="12" fill="#1B2742" stroke="#2D3D5E" stroke-width="2"/>
+  
+  <text x="80" y="85" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">BRAND PRESENTATION TIPS</text>
+  <text x="80" y="112" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="800">Make a Credible First Impression Online</text>
+
+  <rect x="80" y="140" width="210" height="75" rx="8" fill="#101A33" stroke="#2E3F61" stroke-width="1"/>
+  <text x="95" y="168" fill="#F06449" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Clear Contact Info</text>
+  <text x="95" y="192" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">WhatsApp, email, and area</text>
+
+  <rect x="310" y="140" width="210" height="75" rx="8" fill="#101A33" stroke="#2E3F61" stroke-width="1"/>
+  <text x="325" y="168" fill="#22C55E" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Good Quality Photos</text>
+  <text x="325" y="192" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Clean daylight product shots</text>
+
+  <rect x="80" y="230" width="210" height="75" rx="8" fill="#101A33" stroke="#2E3F61" stroke-width="1"/>
+  <text x="95" y="258" fill="#EAB308" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Accurate Opening Hours</text>
+  <text x="95" y="282" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Never confuse customers</text>
+
+  <rect x="310" y="230" width="210" height="75" rx="8" fill="#101A33" stroke="#2E3F61" stroke-width="1"/>
+  <text x="325" y="258" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Fast Mobile Loading</text>
+  <text x="325" y="282" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Opens in 1-2 seconds</text>
+</svg>
