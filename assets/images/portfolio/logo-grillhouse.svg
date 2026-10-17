@@ -1,45 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg-grill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141414"/>
-      <stop offset="50%" stop-color="#1F1F1F"/>
-      <stop offset="100%" stop-color="#0F0F0F"/>
-    </linearGradient>
-    <linearGradient id="flame-grad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#C83228"/>
-      <stop offset="60%" stop-color="#E65100"/>
-      <stop offset="100%" stop-color="#FFB300"/>
-    </linearGradient>
-    <radialGradient id="glow-grill" cx="50%" cy="42%" r="50%">
-      <stop offset="0%" stop-color="#E03E32" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#E03E32" stop-opacity="0"/>
+    <radialGradient id="kgh-bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#241512"/>
+      <stop offset="50%" stop-color="#150E0C"/>
+      <stop offset="100%" stop-color="#0A0605"/>
     </radialGradient>
+    <linearGradient id="fire-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="35%" stop-color="#F77F00"/>
+      <stop offset="70%" stop-color="#FCBF49"/>
+      <stop offset="100%" stop-color="#FFF3B0"/>
+    </linearGradient>
+    <linearGradient id="iron-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A4543"/>
+      <stop offset="50%" stop-color="#2B2725"/>
+      <stop offset="100%" stop-color="#171514"/>
+    </linearGradient>
+    <linearGradient id="copper-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E27D60"/>
+      <stop offset="50%" stop-color="#C3583C"/>
+      <stop offset="100%" stop-color="#852E1A"/>
+    </linearGradient>
+    <filter id="flame-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
   </defs>
-  <rect width="800" height="520" rx="16" fill="url(#bg-grill)"/>
-  <circle cx="400" cy="205" r="210" fill="url(#glow-grill)"/>
-  
-  <!-- Charcoal Grill Circular Badge -->
-  <circle cx="400" cy="205" r="100" fill="#242424" stroke="#383838" stroke-width="3"/>
-  <circle cx="400" cy="205" r="92" fill="#1A1A1A" stroke="#C83228" stroke-width="2" stroke-dasharray="8,5"/>
-  
-  <!-- Grill Skewers & Fiery Flame Emblem -->
-  <g transform="translate(400, 205)">
-    <!-- Crossed Skewers -->
-    <line x1="-65" y1="65" x2="65" y2="-65" stroke="#757575" stroke-width="3.5" stroke-linecap="round"/>
-    <line x1="65" y1="65" x2="-65" y2="-65" stroke="#757575" stroke-width="3.5" stroke-linecap="round"/>
-    <!-- Handle Grips -->
-    <circle cx="-65" cy="65" r="5" fill="#C83228"/>
-    <circle cx="65" cy="65" r="5" fill="#C83228"/>
-    
-    <!-- Central Charcoal Fire Flame -->
-    <path d="M 0 -58 C 22 -30 35 -10 25 22 C 18 40 -18 40 -25 22 C -35 -10 -22 -30 0 -58 Z" fill="url(#flame-grad)"/>
-    <path d="M 0 -35 C 12 -18 18 -5 12 14 C 8 24 -8 24 -12 14 C -18 -5 -12 -18 0 -35 Z" fill="#FFE082"/>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#kgh-bg)"/>
+
+  <!-- Fiery Ember Glow in Background -->
+  <circle cx="400" cy="180" r="130" fill="#F77F00" opacity="0.12" filter="url(#flame-glow)"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(400, 180)">
+    <!-- Outer Grill Ring (Cast Iron Rim) -->
+    <circle cx="0" cy="0" r="86" fill="url(#iron-grad)" stroke="url(#copper-rim)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="76" fill="#140E0C" stroke="#3A2A26" stroke-width="1.5"/>
+
+    <!-- Circular Grill Grate Lines -->
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#3A2A26" stroke-width="2" stroke-dasharray="8 6"/>
+    <line x1="-72" y1="0" x2="72" y2="0" stroke="#3A2A26" stroke-width="2"/>
+    <line x1="0" y1="-72" x2="0" y2="72" stroke="#3A2A26" stroke-width="2"/>
+    <line x1="-50" y1="-50" x2="50" y2="50" stroke="#3A2A26" stroke-width="1.5"/>
+    <line x1="-50" y1="50" x2="50" y2="-50" stroke="#3A2A26" stroke-width="1.5"/>
+
+    <!-- Crossed Skewers Behind Flame -->
+    <g stroke="url(#copper-rim)" stroke-width="3" stroke-linecap="round">
+      <line x1="-65" y1="65" x2="65" y2="-65"/>
+      <line x1="-65" y1="-65" x2="65" y2="65"/>
+      <!-- Skewer Handles -->
+      <circle cx="-65" cy="65" r="5" fill="#C3583C"/>
+      <circle cx="65" cy="65" r="5" fill="#C3583C"/>
+    </g>
+
+    <!-- Center Blazing Ember Flame -->
+    <g filter="url(#flame-glow)">
+      <!-- Outer Flame -->
+      <path d="M 0 52 C -36 52 -44 14 -24 -14 C -14 -28 -18 -42 -2 -62 C 6 -42 28 -28 32 -6 C 38 18 28 52 0 52 Z" fill="url(#fire-grad)"/>
+      <!-- Inner Core White Flame -->
+      <path d="M 0 46 C -18 46 -22 22 -10 4 C -4 -6 -8 -16 0 -30 C 4 -18 16 -8 16 6 C 20 22 14 46 0 46 Z" fill="#FFF9E6"/>
+    </g>
   </g>
+
+  <!-- Brand Typography: ONLY Business Name -->
+  <text x="400" y="375" 
+        text-anchor="middle" 
+        font-family="'Oswald', 'Montserrat', 'Impact', sans-serif" 
+        font-size="38" 
+        font-weight="700" 
+        letter-spacing="5" 
+        fill="#FFFFFF">KARACHI GRILL HOUSE</text>
   
-  <!-- Brand Typography -->
-  <text x="400" y="358" font-family="'Manrope', -apple-system, sans-serif" font-size="30" font-weight="900" fill="#FBF8F2" text-anchor="middle" letter-spacing="3">KARACHI GRILL HOUSE</text>
-  <text x="400" y="392" font-family="'Manrope', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#E03E32" text-anchor="middle" letter-spacing="3">SMOKED BBQ, BURGERS &amp; ROLLS &#8226; FEDERAL B AREA</text>
-  
-  <!-- Accent Line -->
-  <line x1="310" y1="416" x2="490" y2="416" stroke="#C83228" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="260" y1="400" x2="540" y2="400" stroke="url(#copper-rim)" stroke-width="3" stroke-linecap="round"/>
 </svg>

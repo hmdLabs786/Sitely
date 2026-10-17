@@ -118,9 +118,9 @@
       <div class="container position-relative z-1 py-5 py-lg-10">
         <div class="row align-items-center">
           <div class="col-lg-9 col-xl-8">
-            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-white bg-opacity-10 rounded-pill text-white mb-4" data-aos="fade-up">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-2 bg-white bg-opacity-15 rounded-pill text-white mb-4" data-aos="fade-up" style="border: 1px solid rgba(255, 255, 255, 0.25);">
               <span class="badge bg-primary text-white">About Sitely</span>
-              <span class="fs-3 text-white text-opacity-75">Karachi &bull; Digital Studio</span>
+              <span class="fs-4 text-white fw-bold"><iconify-icon icon="lucide:check-circle-2" class="text-success me-1"></iconify-icon>Serving Pakistan &amp; Beyond</span>
             </div>
             <h1 class="text-white display-5 fw-bold mb-4" data-aos="fade-up" data-aos-delay="100">
               Helping businesses build a stronger digital presence.
@@ -155,9 +155,9 @@
               <span class="badge text-bg-dark">Our Philosophy</span>
             </div>
             <h2 class="display-6 fw-bold mb-3" data-aos="fade-right" data-aos-delay="100">Simple technology. Real business outcomes.</h2>
-            <div class="d-flex align-items-center gap-2 mt-4" data-aos="fade-right" data-aos-delay="200">
+            <div class="d-flex align-items-center gap-2 flex-wrap mt-4">
               <span class="badge text-bg-primary px-3 py-2"><iconify-icon icon="lucide:map-pin" class="me-1"></iconify-icon>Nazimabad &amp; North Nazimabad, Karachi</span>
-              <span class="badge text-bg-light border px-3 py-2 text-dark"><iconify-icon icon="lucide:check-circle-2" class="text-success me-1"></iconify-icon>Serving Pakistan &amp; Beyond</span>
+              <span class="badge bg-success text-white px-3 py-2 fw-semibold"><iconify-icon icon="lucide:check-circle-2" class="me-1"></iconify-icon>Serving Pakistan &amp; Beyond</span>
             </div>
           </div>
           <div class="col-lg-7">
@@ -261,15 +261,25 @@
           <!-- Card 1: Digital Presence -->
           <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
             <div class="core-focus-card shadow-sm">
-              <div class="core-focus-diagram">
-                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom border-secondary border-opacity-25">
-                  <span class="text-success fs-2">● Responsive Web</span>
-                  <span class="text-muted fs-2">Speed &lt; 1.5s</span>
+              <div class="core-focus-visual">
+                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom">
+                  <span class="badge bg-primary text-white fs-1 px-2 py-1">Fast &amp; Mobile</span>
+                  <span class="text-success fs-1 fw-bold">✓ 1-Tap WhatsApp</span>
                 </div>
-                <div class="text-warning mb-1 fs-2">&lt;Website mobileFirst="true"&gt;</div>
-                <div class="ps-3 text-white fs-2">&lt;Catalog items={products} /&gt;</div>
-                <div class="ps-3 text-white fs-2">&lt;FastOrdering /&gt;</div>
-                <div class="text-warning fs-2">&lt;/Website&gt;</div>
+                <div class="d-flex flex-column gap-2 pt-1">
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:smartphone" class="text-primary fs-4"></iconify-icon>
+                    <span>Instant loading on 4G</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:shopping-bag" class="text-primary fs-4"></iconify-icon>
+                    <span>Clean product catalogues</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:message-circle" class="text-success fs-4"></iconify-icon>
+                    <span>Direct chat checkout</span>
+                  </div>
+                </div>
               </div>
               <h4 class="fw-bold text-dark mb-2">Digital Presence</h4>
               <p class="text-dark opacity-75 fs-4 mb-4 flex-grow-1">
@@ -284,16 +294,25 @@
           <!-- Card 2: Design & Brand Presentation -->
           <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
             <div class="core-focus-card shadow-sm">
-              <div class="core-focus-diagram">
-                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom border-secondary border-opacity-25">
-                  <span class="text-primary fs-2">● Visual System</span>
-                  <span class="text-muted fs-2">Identity &amp; UI</span>
+              <div class="core-focus-visual">
+                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom">
+                  <span class="badge bg-dark text-white fs-1 px-2 py-1">Visual Polish</span>
+                  <span class="text-primary fs-1 fw-bold">✓ High Trust</span>
                 </div>
-                <div class="text-info mb-1 fs-2">brand: {</div>
-                <div class="ps-3 text-white fs-2">palette: ['#101A33', '#F06449'],</div>
-                <div class="ps-3 text-white fs-2">type: 'Sora &amp; Plus Jakarta',</div>
-                <div class="ps-3 text-white fs-2">trust: 'High Credibility'</div>
-                <div class="text-info fs-2">}</div>
+                <div class="d-flex flex-column gap-2 pt-1">
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:palette" class="text-primary fs-4"></iconify-icon>
+                    <span>Custom brand colours</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:type" class="text-primary fs-4"></iconify-icon>
+                    <span>Crisp, readable typography</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:shield-check" class="text-success fs-4"></iconify-icon>
+                    <span>Trustworthy customer feel</span>
+                  </div>
+                </div>
               </div>
               <h4 class="fw-bold text-dark mb-2">Design &amp; Brand Presentation</h4>
               <p class="text-dark opacity-75 fs-4 mb-4 flex-grow-1">
@@ -308,21 +327,24 @@
           <!-- Card 3: Business Automation -->
           <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
             <div class="core-focus-card shadow-sm">
-              <div class="core-focus-diagram">
-                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom border-secondary border-opacity-25">
-                  <span class="text-success fs-2">● Workflow Engine</span>
-                  <span class="text-muted fs-2">Live Webhook</span>
+              <div class="core-focus-visual">
+                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom">
+                  <span class="badge bg-success text-white fs-1 px-2 py-1">Time Saver</span>
+                  <span class="text-success fs-1 fw-bold">✓ Zero Mistakes</span>
                 </div>
-                <div class="d-flex align-items-center gap-2 my-1 text-white fs-2">
-                  <span class="badge bg-secondary">New Order</span>
-                  <span>&rarr;</span>
-                  <span class="badge bg-success">WhatsApp</span>
-                </div>
-                <div class="d-flex align-items-center gap-2 text-muted fs-2">
-                  <span>&#8627;</span>
-                  <span class="badge bg-primary">Google Sheets</span>
-                  <span>&rarr;</span>
-                  <span>Confirmed</span>
+                <div class="d-flex flex-column gap-2 pt-1">
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:bell-ring" class="text-success fs-4"></iconify-icon>
+                    <span>Instant WhatsApp lead alert</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:table" class="text-primary fs-4"></iconify-icon>
+                    <span>Auto-sync to Google Sheets</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:clock" class="text-primary fs-4"></iconify-icon>
+                    <span>Saves 2+ hours every day</span>
+                  </div>
                 </div>
               </div>
               <h4 class="fw-bold text-dark mb-2">Business Automation</h4>
@@ -338,15 +360,25 @@
           <!-- Card 4: Useful Technology Integration -->
           <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="400">
             <div class="core-focus-card shadow-sm">
-              <div class="core-focus-diagram">
-                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom border-secondary border-opacity-25">
-                  <span class="text-warning fs-2">● Operational Tools</span>
-                  <span class="text-muted fs-2">Integrated Stack</span>
+              <div class="core-focus-visual">
+                <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom">
+                  <span class="badge bg-primary text-white fs-1 px-2 py-1">Everyday Tools</span>
+                  <span class="text-success fs-1 fw-bold">✓ Easy to Run</span>
                 </div>
-                <div class="text-muted fs-2 mb-1">// Connected modules</div>
-                <div class="text-white fs-2">&check; Order Tracking &amp; Delivery</div>
-                <div class="text-white fs-2">&check; COD &amp; Local Gateways</div>
-                <div class="text-white fs-2">&check; Appointment Booking</div>
+                <div class="d-flex flex-column gap-2 pt-1">
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:calendar-clock" class="text-primary fs-4"></iconify-icon>
+                    <span>Simple appointment booking</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:utensils" class="text-primary fs-4"></iconify-icon>
+                    <span>Online menus &amp; takeaways</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 fs-2 text-dark">
+                    <iconify-icon icon="lucide:banknote" class="text-success fs-4"></iconify-icon>
+                    <span>Cash-on-delivery &amp; portals</span>
+                  </div>
+                </div>
               </div>
               <h4 class="fw-bold text-dark mb-2">Useful Tech Integration</h4>
               <p class="text-dark opacity-75 fs-4 mb-4 flex-grow-1">

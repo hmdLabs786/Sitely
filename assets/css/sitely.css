@@ -805,27 +805,43 @@ body {
 }
 
 .why-bento-dark {
-  background-color: #101A33;
-  color: #F7F8FC;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #101A33 !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .why-bento-slate {
-  background-color: #1B2742;
-  color: #F7F8FC;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: #16223D !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
 }
 
-.why-bento-light {
-  background-color: #FFFFFF;
-  color: #101A33;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+.why-bento-card h3 {
+  color: #FFFFFF !important;
+}
+
+.why-bento-card p {
+  color: rgba(247, 248, 252, 0.9) !important;
+}
+
+.why-bento-card .text-muted {
+  color: rgba(247, 248, 252, 0.85) !important;
+}
+
+.why-bento-card p.text-dark {
+  color: rgba(247, 248, 252, 0.85) !important;
+}
+
+.why-bento-card .badge.bg-white,
+.why-bento-card .badge.bg-white.text-dark {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  font-weight: 700 !important;
 }
 
 .why-bento-coral {
-  background: linear-gradient(135deg, #F06449 0%, #D84D32 100%);
-  color: #FFFFFF;
+  background: linear-gradient(135deg, #F06449 0%, #D84D32 100%) !important;
+  color: #FFFFFF !important;
 }
 
 .why-icon-badge {
@@ -839,7 +855,66 @@ body {
 }
 
 /* ==========================================================================
-   About Page: Approach Timeline & Core Focus Diagrams
+   Hero Background Video & Inner Banner Sizing
+   ========================================================================== */
+.hero-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-video-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.38;
+}
+
+.hero-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(16, 26, 51, 0.65) 0%, rgba(10, 16, 32, 0.92) 100%);
+}
+
+.banner-inner-section {
+  min-height: 560px !important;
+  padding-top: 150px !important;
+  padding-bottom: 80px !important;
+}
+
+/* ==========================================================================
+   Portfolio Client Reviews
+   ========================================================================== */
+.project-client-review {
+  background: #F8FAFC;
+  border-radius: 0.85rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid #E2E8F0;
+  margin-top: 1rem;
+}
+
+.project-client-review .star-rating {
+  color: #F59E0B;
+  display: inline-flex;
+  gap: 2px;
+}
+
+.project-client-review .review-text {
+  color: #1E293B !important;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  font-style: italic;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   About Page: Approach Timeline & Core Focus Cards
    ========================================================================== */
 .approach-timeline {
   display: grid;
@@ -882,7 +957,7 @@ body {
   background: #FFFFFF;
   border-radius: 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  padding: 2rem;
+  padding: 2.25rem 1.75rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -890,18 +965,16 @@ body {
 }
 
 .core-focus-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  transform: translateY(-5px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
 }
 
-.core-focus-diagram {
-  background: #141E33;
-  border-radius: 0.75rem;
+.core-focus-visual {
+  background: #F8FAFC;
+  border-radius: 0.85rem;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
-  color: #F7F8FC;
-  font-family: 'SF Mono', Consolas, monospace;
-  font-size: 0.8rem;
+  border: 1px solid #E2E8F0;
 }
 
 /* ==========================================================================
@@ -971,6 +1044,38 @@ body {
 
 .header-link.active img {
   filter: brightness(0) saturate(100%) invert(48%) sepia(85%) saturate(1915%) hue-rotate(334deg) brightness(97%) contrast(92%);
+}
+
+/* Contrast Overrides for Light Cards and Badges */
+.bg-light,
+.bg-light-subtle {
+  background-color: #F8FAFC !important;
+}
+
+.text-dark {
+  color: #0F172A !important;
+}
+
+.badge.bg-light {
+  background-color: #F1F5F9 !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  font-weight: 600;
+}
+
+.badge.bg-success,
+.badge-success {
+  background-color: #10B981 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #059669 !important;
+  font-weight: 600;
+}
+
+.badge.bg-primary,
+.badge-primary {
+  background-color: var(--sitely-coral) !important;
+  color: #FFFFFF !important;
+  font-weight: 600;
 }
 
 

@@ -1,43 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg-hampers" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FDF8F5"/>
-      <stop offset="50%" stop-color="#F7ECE8"/>
-      <stop offset="100%" stop-color="#EEDCD5"/>
+    <radialGradient id="hh-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="60%" stop-color="#F2EBE0"/>
+      <stop offset="100%" stop-color="#E8DFD0"/>
+    </radialGradient>
+    <linearGradient id="hh-coral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F48C6B"/>
+      <stop offset="100%" stop-color="#D95338"/>
     </linearGradient>
-    <linearGradient id="sage-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#93B19B"/>
-      <stop offset="100%" stop-color="#5E7F67"/>
+    <linearGradient id="hh-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C382"/>
+      <stop offset="100%" stop-color="#C69E56"/>
     </linearGradient>
-    <linearGradient id="blush-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F2A4AF"/>
-      <stop offset="100%" stop-color="#D97D8E"/>
-    </linearGradient>
+    <filter id="hh-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#8C6E54" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="800" height="520" rx="16" fill="url(#bg-hampers)"/>
-  
-  <!-- Soft Organic Swirl Background -->
-  <circle cx="400" cy="205" r="160" fill="#FFFFFF" fill-opacity="0.6"/>
-  <circle cx="400" cy="205" r="110" fill="none" stroke="#D97D8E" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="4,4"/>
-  
-  <!-- Central Gift & Resin Hexagon Emblem -->
-  <g transform="translate(400, 205)">
-    <!-- Hexagon seal -->
-    <polygon points="0,-82 71,-41 71,41 0,82 -71,41 -71,-41" fill="#FFFFFF" stroke="url(#sage-grad)" stroke-width="3" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.06))"/>
-    <!-- Ribbon loops -->
-    <path d="M -30 -45 C -45 -70 -15 -80 0 -50 C 15 -80 45 -70 30 -45 Z" fill="url(#blush-grad)"/>
-    <!-- Box Lines -->
-    <rect x="-38" y="-30" width="76" height="66" rx="6" fill="#F8F3EF" stroke="url(#sage-grad)" stroke-width="2"/>
-    <line x1="0" y1="-30" x2="0" y2="36" stroke="url(#blush-grad)" stroke-width="6"/>
-    <line x1="-38" y1="3" x2="38" y2="3" stroke="url(#blush-grad)" stroke-width="6"/>
-    <!-- Monogram HH -->
-    <text x="0" y="65" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#4A3B32" text-anchor="middle" letter-spacing="1">H &#8226; H</text>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#hh-bg)"/>
+
+  <!-- Subtle Radial Aura -->
+  <circle cx="400" cy="190" r="140" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(400, 185)" filter="url(#hh-shadow)">
+    <!-- Decorative Circular Wreath/Border -->
+    <circle cx="0" cy="0" r="84" fill="#FFFFFF" stroke="#DEC8B0" stroke-width="2"/>
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#EFE4D6" stroke-width="1.2" stroke-dasharray="4 4"/>
+    
+    <!-- 3D Origami Gift Hamper Box -->
+    <!-- Left Box Facet -->
+    <path d="M 0 10 L -42 -12 L 0 -34 L 0 38 Z" fill="#E8DDD1" stroke="#CBB9A7" stroke-width="1"/>
+    <!-- Right Box Facet -->
+    <path d="M 0 10 L 42 -12 L 0 -34 L 0 38 Z" fill="#DDD0C2" stroke="#CBB9A7" stroke-width="1"/>
+    <!-- Top Lid Facet -->
+    <path d="M 0 -34 L -42 -12 L 0 -2 L 42 -12 Z" fill="#F8F3EC" stroke="#CBB9A7" stroke-width="1"/>
+
+    <!-- Ribbon Vertical -->
+    <path d="M -6 -2 L 6 -2 L 6 38 L -6 38 Z" fill="url(#hh-coral)"/>
+    <path d="M -6 -34 L 6 -34 L 6 -2 L -6 -2 Z" fill="#C94931"/>
+
+    <!-- Elegant Curled Satin Ribbon Bow on Top -->
+    <!-- Left Loop -->
+    <path d="M -2 -34 C -18 -55 -46 -48 -34 -30 C -26 -18 -6 -32 -2 -34 Z" fill="url(#hh-coral)"/>
+    <!-- Right Loop -->
+    <path d="M 2 -34 C 18 -55 46 -48 34 -30 C 26 -18 6 -32 2 -34 Z" fill="url(#hh-coral)"/>
+    <!-- Ribbon Center Knot -->
+    <circle cx="0" cy="-33" r="7" fill="url(#hh-gold)"/>
+    <!-- Ribbon Tails -->
+    <path d="M -3 -28 C -12 -18 -18 -8 -22 4 C -18 2 -14 0 -10 -8 Z" fill="url(#hh-coral)"/>
+    <path d="M 3 -28 C 12 -18 18 -8 22 4 C 18 2 14 0 10 -8 Z" fill="url(#hh-coral)"/>
+    
+    <!-- Little Sparkle Stars -->
+    <path d="M -48 -40 Q -48 -32 -40 -32 Q -48 -32 -48 -24 Q -48 -32 -56 -32 Q -48 -32 -48 -40 Z" fill="url(#hh-gold)"/>
+    <path d="M 46 -36 Q 46 -30 52 -30 Q 46 -30 46 -24 Q 46 -30 40 -30 Q 46 -30 46 -36 Z" fill="url(#hh-gold)"/>
   </g>
+
+  <!-- Brand Typography: ONLY Business Name -->
+  <text x="400" y="375" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Outfit', 'Montserrat', sans-serif" 
+        font-size="36" 
+        font-weight="800" 
+        letter-spacing="5" 
+        fill="#2A211D">HAPPY HAMPERS</text>
   
-  <!-- Brand Typography -->
-  <text x="400" y="360" font-family="'Manrope', -apple-system, sans-serif" font-size="30" font-weight="800" fill="#3D352E" text-anchor="middle" letter-spacing="3">HAPPY HAMPERS</text>
-  <text x="400" y="394" font-family="'Manrope', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#5E7F67" text-anchor="middle" letter-spacing="3">BESPOKE GIFTS &amp; RESIN ART &#8226; BAHADURABAD</text>
-  
-  <!-- Accent Line with Heart/Flower -->
-  <line x1="320" y1="418" x2="480" y2="418" stroke="#D97D8E" stroke-width="2" stroke-linecap="round"/>
+  <line x1="310" y1="400" x2="490" y2="400" stroke="url(#hh-coral)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

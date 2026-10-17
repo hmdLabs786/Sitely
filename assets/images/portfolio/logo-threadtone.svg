@@ -1,40 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg-thread" x1="0%" y1="0%" x2="100%" y2="100%">
+    <radialGradient id="tt-bg" cx="50%" cy="50%" r="70%">
       <stop offset="0%" stop-color="#F8F9FA"/>
-      <stop offset="50%" stop-color="#EFEFEF"/>
-      <stop offset="100%" stop-color="#E5E7EB"/>
+      <stop offset="60%" stop-color="#EFF1F5"/>
+      <stop offset="100%" stop-color="#E2E6EC"/>
+    </radialGradient>
+    <linearGradient id="tt-indigo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
     </linearGradient>
-    <linearGradient id="olive-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C8A4B"/>
-      <stop offset="100%" stop-color="#556030"/>
+    <linearGradient id="tt-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
     </linearGradient>
+    <filter id="tt-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
   </defs>
-  <rect width="800" height="520" rx="16" fill="url(#bg-thread)"/>
-  
-  <!-- Subtle Weave Pattern Lines -->
-  <g opacity="0.15" stroke="#252B3A" stroke-width="1">
-    <line x1="250" y1="120" x2="550" y2="120"/>
-    <line x1="250" y1="290" x2="550" y2="290"/>
-    <line x1="280" y1="90" x2="280" y2="320"/>
-    <line x1="520" y1="90" x2="520" y2="320"/>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#tt-bg)"/>
+
+  <!-- Modern Fashion Clean Circle Background -->
+  <circle cx="400" cy="180" r="105" fill="#FFFFFF" filter="url(#tt-shadow)"/>
+  <circle cx="400" cy="180" r="98" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Logo Mark: Architectural Weave & Soundwave Monogram (T & T intertwined) -->
+  <g transform="translate(400, 180)">
+    <!-- Interlocking Kinetic Thread Loop 1 (Thread) -->
+    <path d="M -48 18 C -48 -24 -12 -54 22 -38 C 42 -28 48 -6 32 16 C 18 36 -12 36 -28 14" 
+          fill="none" 
+          stroke="#0F172A" 
+          stroke-width="10" 
+          stroke-linecap="round"/>
+    
+    <!-- Interlocking Kinetic Thread Loop 2 (Tone) with Vibrant Gradient -->
+    <path d="M 48 -18 C 48 24 12 54 -22 38 C -42 28 -48 6 -32 -16 C -18 -36 12 -36 28 -14" 
+          fill="none" 
+          stroke="url(#tt-indigo)" 
+          stroke-width="10" 
+          stroke-linecap="round"/>
+
+    <!-- Central Precision Needle / Wave Point Accent -->
+    <circle cx="0" cy="0" r="7" fill="url(#tt-accent)"/>
   </g>
+
+  <!-- Brand Typography: ONLY Business Name -->
+  <text x="400" y="375" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Inter', 'Helvetica Neue', sans-serif" 
+        font-size="36" 
+        font-weight="800" 
+        letter-spacing="6" 
+        fill="#0F172A">THREAD &amp; TONE</text>
   
-  <!-- Contemporary Geometric Loop Monogram (T & T) -->
-  <circle cx="400" cy="205" r="98" fill="#FFFFFF" stroke="#252B3A" stroke-width="2.5" filter="drop-shadow(0 10px 20px rgba(0,0,0,0.06))"/>
-  <circle cx="400" cy="205" r="88" fill="none" stroke="url(#olive-grad)" stroke-width="1.5" stroke-dasharray="6,4"/>
-  
-  <g transform="translate(400, 205)">
-    <!-- Stylized Weave / Thread Loop -->
-    <path d="M -45 -25 C -45 -55 0 -55 0 -15 C 0 25 45 25 45 55" fill="none" stroke="url(#olive-grad)" stroke-width="5" stroke-linecap="round"/>
-    <path d="M 45 -25 C 45 -55 0 -55 0 -15 C 0 25 -45 25 -45 55" fill="none" stroke="#252B3A" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="0" cy="-15" r="7" fill="#DDA15E"/>
-  </g>
-  
-  <!-- Brand Typography -->
-  <text x="400" y="358" font-family="'Manrope', -apple-system, sans-serif" font-size="30" font-weight="900" fill="#252B3A" text-anchor="middle" letter-spacing="4">THREAD &amp; TONE</text>
-  <text x="400" y="392" font-family="'Manrope', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#606C38" text-anchor="middle" letter-spacing="3">CASUAL &amp; EVERYDAY RETAIL &#8226; TARIQ ROAD</text>
-  
-  <!-- Accent Line -->
-  <line x1="330" y1="416" x2="470" y2="416" stroke="#252B3A" stroke-width="2" stroke-linecap="round"/>
+  <line x1="300" y1="400" x2="500" y2="400" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

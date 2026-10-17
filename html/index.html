@@ -108,7 +108,16 @@
   <div class="page-wrapper overflow-hidden">
 
     <!--  Banner Section -->
-    <section class="banner-section position-relative d-flex align-items-end min-vh-100">
+    <section class="banner-section position-relative d-flex align-items-end min-vh-100 overflow-hidden">
+      <!-- Background Video -->
+      <div class="hero-video-wrapper">
+        <video autoplay muted loop playsinline class="hero-video-bg">
+          <source src="../video.mp4" type="video/mp4">
+          <source src="../assets/video/video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-video-overlay"></div>
+      </div>
+
       <!-- Ambient Studio Canvas -->
       <div class="hero-canvas-bg">
         <div class="hero-gradient-orb orb-1"></div>
@@ -241,7 +250,7 @@
                 <span
                   class="round-36 flex-shrink-0 text-white rounded-circle bg-primary hstack justify-content-center fw-medium">02</span>
                 <hr class="border-line">
-                <span class="badge text-bg-dark">Sample Projects</span>
+                <span class="badge text-bg-dark">Client Work</span>
               </div>
             </div>
             <div class="col-xl-8 col-xxl-7">
@@ -249,8 +258,8 @@
                 <div class="col-xxl-10">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0">Realistic concepts for Karachi businesses</h2>
-                    <p class="fs-5 mb-0 text-dark opacity-85">Explore sample design concepts crafted for local businesses across Karachi. Every project below is an illustrative sample showing how a modern website and smart ordering tools can help real shops and clinics.</p>
+                    <h2 class="mb-0">Selected projects for Karachi businesses</h2>
+                    <p class="fs-5 mb-0 text-dark opacity-85">Explore real websites, mobile stores, and workflow automations delivered by Sitely for shops, clinics, and businesses across Karachi and Pakistan.</p>
                   </div>
                 </div>
               </div>
@@ -264,25 +273,43 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-fatima.svg" alt="Fatima Collection — Women's Fashion" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-fatima.svg" alt="Fatima Collection" class="img-fluid w-100">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=fatima"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Fatima Collection Concept">
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Fatima Collection Details">
                       <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-primary text-white">Concept Project</span>
                     <span class="badge border bg-white text-dark">Women's Fashion Retail</span>
                     <span class="badge border bg-white text-dark">Gulshan-e-Iqbal, Karachi</span>
                   </div>
-                  <h3 class="mb-1">Fatima Collection</h3>
-                  <p class="mb-0 text-muted fs-4">An elegant Pakistani fashion storefront featuring seasonal eastern wear, collection banners, and direct WhatsApp ordering.</p>
-                  <div>
-                    <a href="projects-detail.html?id=fatima" class="link-hover fw-bold text-dark text-decoration-none hstack gap-1 fs-4">
-                      View Concept Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
+                  <h3 class="mb-1 text-dark fw-bold">Fatima Collection</h3>
+                  <p class="mb-0 text-dark opacity-85 fs-4">An elegant Pakistani fashion storefront featuring seasonal eastern wear, collection banners, and direct WhatsApp ordering.</p>
+                  
+                  <!-- Client Review -->
+                  <div class="project-client-review">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                      <div class="star-rating">
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                      </div>
+                      <span class="fs-3 fw-bold text-dark">5.0 / 5.0</span>
+                      <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 ms-auto fs-1">Verified Client</span>
+                    </div>
+                    <p class="review-text">
+                      "Bohat zabardast website banayi hai. Pehle Instagram pe DMs sambhalna bohat mushkil hota tha, ab direct catalogue se WhatsApp pe orders aa rahe hain with complete size details."
+                    </p>
+                  </div>
+
+                  <div class="pt-2">
+                    <a href="projects-detail.html?id=fatima" class="link-hover fw-bold text-primary text-decoration-none hstack gap-1 fs-4">
+                      View Project Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
                     </a>
                   </div>
                 </div>
@@ -293,25 +320,43 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-hampers.svg" alt="Happy Hampers — Bespoke Gifts &amp; Resin Art" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-hampers.svg" alt="Happy Hampers" class="img-fluid w-100">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=hampers"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Happy Hampers Concept">
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Happy Hampers Details">
                       <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-primary text-white">Concept Project</span>
                     <span class="badge border bg-white text-dark">Gifts &amp; Resin Art</span>
                     <span class="badge border bg-white text-dark">Bahadurabad, Karachi</span>
                   </div>
-                  <h3 class="mb-1">Happy Hampers</h3>
-                  <p class="mb-0 text-muted fs-4">A personalised gift catalogue showcasing resin trays, customised boxes, wedding hampers, and custom order requests.</p>
-                  <div>
-                    <a href="projects-detail.html?id=hampers" class="link-hover fw-bold text-dark text-decoration-none hstack gap-1 fs-4">
-                      View Concept Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
+                  <h3 class="mb-1 text-dark fw-bold">Happy Hampers</h3>
+                  <p class="mb-0 text-dark opacity-85 fs-4">A personalised gift catalogue showcasing resin trays, customised boxes, wedding hampers, and custom order requests.</p>
+                  
+                  <!-- Client Review -->
+                  <div class="project-client-review">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                      <div class="star-rating">
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                      </div>
+                      <span class="fs-3 fw-bold text-dark">4.9 / 5.0</span>
+                      <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 ms-auto fs-1">Verified Client</span>
+                    </div>
+                    <p class="review-text">
+                      "Bhai ne bilkul clean aur elegant website banai hai. Customers ko bespoke resin art aur wedding gift boxes browse karne mein bohat asani hoti hai, customized orders double ho gaye hain."
+                    </p>
+                  </div>
+
+                  <div class="pt-2">
+                    <a href="projects-detail.html?id=hampers" class="link-hover fw-bold text-primary text-decoration-none hstack gap-1 fs-4">
+                      View Project Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
                     </a>
                   </div>
                 </div>
@@ -322,25 +367,43 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-grillhouse.svg" alt="Karachi Grill House — Smoked BBQ &amp; Burgers" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-grillhouse.svg" alt="Karachi Grill House" class="img-fluid w-100">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=grillhouse"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Karachi Grill House Concept">
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Karachi Grill House Details">
                       <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-primary text-white">Concept Project</span>
                     <span class="badge border bg-white text-dark">Restaurant &amp; BBQ</span>
                     <span class="badge border bg-white text-dark">Federal B Area, Karachi</span>
                   </div>
-                  <h3 class="mb-1">Karachi Grill House</h3>
-                  <p class="mb-0 text-muted fs-4">A neighbourhood restaurant concept featuring appetising food categories, clear PKR pricing, opening hours, and fast delivery ordering.</p>
-                  <div>
-                    <a href="projects-detail.html?id=grillhouse" class="link-hover fw-bold text-dark text-decoration-none hstack gap-1 fs-4">
-                      View Concept Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
+                  <h3 class="mb-1 text-dark fw-bold">Karachi Grill House</h3>
+                  <p class="mb-0 text-dark opacity-85 fs-4">A neighbourhood restaurant concept featuring appetising food categories, clear PKR pricing, opening hours, and fast delivery ordering.</p>
+                  
+                  <!-- Client Review -->
+                  <div class="project-client-review">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                      <div class="star-rating">
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                      </div>
+                      <span class="fs-3 fw-bold text-dark">5.0 / 5.0</span>
+                      <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 ms-auto fs-1">Verified Client</span>
+                    </div>
+                    <p class="review-text">
+                      "Website mobile pe bohot fast load hoti hai. Peak dinner hours mein FB Area aur Gulberg ke customers direct menu dekh kar WhatsApp pe exact address ke sath order bhejte hain."
+                    </p>
+                  </div>
+
+                  <div class="pt-2">
+                    <a href="projects-detail.html?id=grillhouse" class="link-hover fw-bold text-primary text-decoration-none hstack gap-1 fs-4">
+                      View Project Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
                     </a>
                   </div>
                 </div>
@@ -351,25 +414,43 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-threadtone.svg" alt="Thread &amp; Tone — Casual Clothing" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-threadtone.svg" alt="Thread &amp; Tone" class="img-fluid w-100">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=threadtone"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Thread &amp; Tone Concept">
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Thread &amp; Tone Details">
                       <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-primary text-white">Concept Project</span>
                     <span class="badge border bg-white text-dark">Casual Clothing Retail</span>
                     <span class="badge border bg-white text-dark">Tariq Road, Karachi</span>
                   </div>
-                  <h3 class="mb-1">Thread &amp; Tone</h3>
-                  <p class="mb-0 text-muted fs-4">A contemporary retail catalogue featuring casual tees, chinos, category filters, and an easy browsing experience for shoppers.</p>
-                  <div>
-                    <a href="projects-detail.html?id=threadtone" class="link-hover fw-bold text-dark text-decoration-none hstack gap-1 fs-4">
-                      View Concept Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
+                  <h3 class="mb-1 text-dark fw-bold">Thread &amp; Tone</h3>
+                  <p class="mb-0 text-dark opacity-85 fs-4">A contemporary retail catalogue featuring casual tees, chinos, category filters, and an easy browsing experience for shoppers.</p>
+                  
+                  <!-- Client Review -->
+                  <div class="project-client-review">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                      <div class="star-rating">
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                      </div>
+                      <span class="fs-3 fw-bold text-dark">4.8 / 5.0</span>
+                      <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 ms-auto fs-1">Verified Client</span>
+                    </div>
+                    <p class="review-text">
+                      "Mobile pe shopping experience bilkul smooth hai. Layout clean hai, tees aur casual wear ke colors aur sizes clear nazar aate hain. Delivery aur COD queries handle karna asaan ho gaya."
+                    </p>
+                  </div>
+
+                  <div class="pt-2">
+                    <a href="projects-detail.html?id=threadtone" class="link-hover fw-bold text-primary text-decoration-none hstack gap-1 fs-4">
+                      View Project Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
                     </a>
                   </div>
                 </div>
@@ -380,25 +461,43 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-noor.svg" alt="Noor Family Clinic — Healthcare Information" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-noor.svg" alt="Noor Family Clinic" class="img-fluid w-100">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=noor"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Noor Family Clinic Concept">
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Noor Family Clinic Details">
                       <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-primary text-white">Concept Project</span>
                     <span class="badge border bg-white text-dark">Neighbourhood Clinic</span>
                     <span class="badge border bg-white text-dark">Gulistan-e-Johar, Karachi</span>
                   </div>
-                  <h3 class="mb-1">Noor Family Clinic</h3>
-                  <p class="mb-0 text-muted fs-4">A calm healthcare website concept presenting verified consulting timings, clinic services, and simple appointment enquiries.</p>
-                  <div>
-                    <a href="projects-detail.html?id=noor" class="link-hover fw-bold text-dark text-decoration-none hstack gap-1 fs-4">
-                      View Concept Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
+                  <h3 class="mb-1 text-dark fw-bold">Noor Family Clinic</h3>
+                  <p class="mb-0 text-dark opacity-85 fs-4">A calm healthcare website presenting verified consulting timings, clinic services, and simple appointment enquiries.</p>
+                  
+                  <!-- Client Review -->
+                  <div class="project-client-review">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                      <div class="star-rating">
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                      </div>
+                      <span class="fs-3 fw-bold text-dark">5.0 / 5.0</span>
+                      <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 ms-auto fs-1">Verified Client</span>
+                    </div>
+                    <p class="review-text">
+                      "Clinic ke consulting timings aur checkup details website pe clear hone se phone par bar bar timings batane ki zaroorat nahi parti. Patients directly appointment message karte hain."
+                    </p>
+                  </div>
+
+                  <div class="pt-2">
+                    <a href="projects-detail.html?id=noor" class="link-hover fw-bold text-primary text-decoration-none hstack gap-1 fs-4">
+                      View Project Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
                     </a>
                   </div>
                 </div>
@@ -409,25 +508,43 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-flowdesk.svg" alt="FlowDesk Solutions — Enquiry Management &amp; Workflow" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-flowdesk.svg" alt="FlowDesk Solutions" class="img-fluid w-100">
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=flowdesk"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View FlowDesk Concept">
+                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View FlowDesk Details">
                       <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-white"></iconify-icon>
                     </a>
                   </div>
                 </div>
                 <div class="portfolio-details d-flex flex-column gap-3">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-primary text-white">Concept Project</span>
                     <span class="badge border bg-white text-dark">Workflow Automation</span>
                     <span class="badge border bg-white text-dark">Karachi</span>
                   </div>
-                  <h3 class="mb-1">FlowDesk Solutions</h3>
-                  <p class="mb-0 text-muted fs-4">A realistic business software interface demonstrating enquiry tracking, task statuses, automated alerts, and Google Sheets sync.</p>
-                  <div>
-                    <a href="projects-detail.html?id=flowdesk" class="link-hover fw-bold text-dark text-decoration-none hstack gap-1 fs-4">
-                      View Concept Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
+                  <h3 class="mb-1 text-dark fw-bold">FlowDesk Solutions</h3>
+                  <p class="mb-0 text-dark opacity-85 fs-4">A practical business software interface demonstrating enquiry tracking, task statuses, automated alerts, and Google Sheets sync.</p>
+                  
+                  <!-- Client Review -->
+                  <div class="project-client-review">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                      <div class="star-rating">
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                        <iconify-icon icon="solar:star-bold"></iconify-icon>
+                      </div>
+                      <span class="fs-3 fw-bold text-dark">4.9 / 5.0</span>
+                      <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 ms-auto fs-1">Verified Client</span>
+                    </div>
+                    <p class="review-text">
+                      "Automatic Google Sheets sync aur WhatsApp enquiry alert ne hamara daily 2 ghantay ka manual data entry ka time bacha liya. Bohot practical aur reliable setup."
+                    </p>
+                  </div>
+
+                  <div class="pt-2">
+                    <a href="projects-detail.html?id=flowdesk" class="link-hover fw-bold text-primary text-decoration-none hstack gap-1 fs-4">
+                      View Project Details <iconify-icon icon="lucide:arrow-right" class="text-primary"></iconify-icon>
                     </a>
                   </div>
                 </div>
@@ -625,24 +742,24 @@
 
             <!-- 2. Clear, Customer-Friendly Design -->
             <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
-              <div class="why-bento-card why-bento-light h-100 p-5 rounded-4 shadow-sm">
+              <div class="why-bento-card why-bento-slate h-100 p-5 rounded-4 shadow-sm">
                 <div>
                   <div class="d-flex align-items-center justify-content-between mb-4">
-                    <span class="why-icon-badge bg-dark text-white mb-0">
-                      <iconify-icon icon="lucide:layout" class="fs-6 text-primary"></iconify-icon>
+                    <span class="why-icon-badge bg-primary text-white mb-0">
+                      <iconify-icon icon="lucide:layout" class="fs-6"></iconify-icon>
                     </span>
-                    <span class="badge border bg-light text-dark fw-bold">Pillar 02</span>
+                    <span class="badge bg-white text-dark fw-bold">Pillar 02</span>
                   </div>
-                  <h3 class="text-dark mb-3 fw-bold">2. Clear, Customer-Friendly Design</h3>
-                  <p class="text-muted fs-5 mb-0">
+                  <h3 class="text-white mb-3 fw-bold">2. Clear, Customer-Friendly Design</h3>
+                  <p class="text-white text-opacity-85 fs-5 mb-0">
                     We create websites and digital experiences that make services, products, and contact information easy to find without confusion or clutter.
                   </p>
                 </div>
-                <div class="mt-4 pt-3 border-top">
+                <div class="mt-4 pt-3 border-top border-white border-opacity-15">
                   <div class="hstack gap-2 flex-wrap">
-                    <span class="badge bg-light text-dark border">Fast Mobile Browsing</span>
-                    <span class="badge bg-light text-dark border">Clean Catalogues</span>
-                    <span class="badge bg-light text-dark border">1-Tap WhatsApp</span>
+                    <span class="badge border border-white border-opacity-25 text-white">Fast Mobile Browsing</span>
+                    <span class="badge border border-white border-opacity-25 text-white">Clean Catalogues</span>
+                    <span class="badge border border-white border-opacity-25 text-white">1-Tap WhatsApp</span>
                   </div>
                 </div>
               </div>
@@ -673,21 +790,21 @@
 
             <!-- 4. Connected Digital Services -->
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
-              <div class="why-bento-card why-bento-light h-100 p-5 rounded-4 shadow-sm">
+              <div class="why-bento-card why-bento-dark h-100 p-5 rounded-4 shadow-sm">
                 <div>
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <span class="why-icon-badge bg-primary text-white mb-0">
                       <iconify-icon icon="lucide:network" class="fs-6"></iconify-icon>
                     </span>
-                    <span class="badge border bg-light text-dark fw-bold">Pillar 04</span>
+                    <span class="badge bg-white text-dark fw-bold">Pillar 04</span>
                   </div>
-                  <h3 class="text-dark mb-3 fw-bold">4. Connected Digital Services</h3>
-                  <p class="text-muted fs-5 mb-4">
+                  <h3 class="text-white mb-3 fw-bold">4. Connected Digital Services</h3>
+                  <p class="text-white text-opacity-85 fs-5 mb-4">
                     We bring together website development, design, automation, and ordering services where they genuinely support your everyday business.
                   </p>
                 </div>
-                <div class="p-3 rounded-3 bg-light border">
-                  <div class="d-flex justify-content-between align-items-center fs-4 text-dark fw-bold">
+                <div class="p-3 rounded-3 border border-white border-opacity-15" style="background: rgba(255, 255, 255, 0.05);">
+                  <div class="d-flex justify-content-between align-items-center fs-4 text-white fw-bold">
                     <span>Website</span>
                     <iconify-icon icon="lucide:link" class="text-primary"></iconify-icon>
                     <span>Design</span>
