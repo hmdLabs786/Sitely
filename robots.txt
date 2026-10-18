@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/libs/
+
+Sitemap: https://sitely.pk/sitemap.xml

@@ -24,8 +24,11 @@ $(function () {
             center: true,
             loop: true,
             margin: 28,
-            nav: false,
+            nav: true,
             dots: true,
+            mouseDrag: true,
+            touchDrag: true,
+            pullDrag: true,
             autoplay: true,
             autoplayTimeout: 4500,
             autoplayHoverPause: true,
@@ -52,6 +55,16 @@ $(function () {
                     margin: 28
                 }
             }
+        });
+
+        // Fast manual controls for user without waiting for autoscroll
+        $('.project-next-btn').on('click', function(e) {
+            e.preventDefault();
+            $projectCarousel.trigger('next.owl.carousel');
+        });
+        $('.project-prev-btn').on('click', function(e) {
+            e.preventDefault();
+            $projectCarousel.trigger('prev.owl.carousel');
         });
     }
 
