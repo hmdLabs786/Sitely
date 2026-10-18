@@ -1,3 +1,60 @@
-/video.mp4
-.DS_Store
+# ==========================================
+# Sitely — Secret Safety & Environment Ignore
+# ==========================================
+
+# Environment variables & secrets (NEVER commit to VCS)
+.env
+.env*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.local
+
+# Private keys, certificates & credentials
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+credentials.json
+service-account*.json
+firebase-adminsdk*.json
+
+# Dependencies & package managers
 node_modules/
+.pnp
+.pnp.js
+
+# Build outputs & caches
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Logs & debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Media & local scratch files
+/video.mp4
+scratch/
