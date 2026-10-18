@@ -9,6 +9,7 @@
   <link rel="shortcut icon" type="image/svg+xml" href="../assets/images/logos/favicon.svg" />
   <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
+  <link rel="preload" href="../assets/fonts/manrope/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../assets/css/styles.css" />
   <link rel="stylesheet" href="../assets/css/sitely.css" />
 </head>
@@ -23,10 +24,10 @@
       <div class="container py-5 text-center">
         <div class="d-flex flex-column justify-content-center align-items-center gap-6">
           <a href="index.html" class="mb-4 d-inline-block">
-            <img src="../assets/images/logos/logo-dark.svg" alt="Sitely Logo" width="180" height="46">
+            <img src="../assets/images/logos/logo-dark.svg" alt="Sitely Logo" width="180" height="46" fetchpriority="high">
           </a>
           <img src="../assets/images/backgrounds/404.svg" alt="404" width="480" class="img-fluid mx-auto"
-            data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+            data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" loading="lazy" decoding="async">
           <div>
             <h2 class="mb-2 text-dark fw-bold" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Page Not Found</h2>
             <p class="text-muted fs-5 mb-0" data-aos="fade-up" data-aos-delay="250">The page you're searching for doesn't exist or has moved.</p>
@@ -48,7 +49,7 @@
   <script src="../assets/libs/aos-master/dist/aos.js"></script>
   <script src="../assets/js/custom.js"></script>
   <!-- Solar icons -->
-  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <script src="../assets/libs/iconify-icon/iconify-icon.min.js" defer></script>
 </body>
 
 </html>

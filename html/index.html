@@ -36,6 +36,7 @@
   <link rel="shortcut icon" type="image/svg+xml" href="../assets/images/logos/favicon.svg" />
   <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
+  <link rel="preload" href="../assets/fonts/manrope/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../assets/css/styles.css" />
   <link rel="stylesheet" href="../assets/css/sitely.css" />
 
@@ -129,10 +130,10 @@
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href="index.html" class="logo-white" aria-label="Sitely Home">
-            <img src="../assets/images/logos/logo-white.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46">
+            <img src="../assets/images/logos/logo-white.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46" fetchpriority="high">
           </a>
           <a href="index.html" class="logo-dark" aria-label="Sitely Home">
-            <img src="../assets/images/logos/logo-dark.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46">
+            <img src="../assets/images/logos/logo-dark.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46" fetchpriority="high">
           </a>
         </div>
         <div class="d-flex align-items-center gap-3">
@@ -219,7 +220,7 @@
     <section class="banner-section position-relative d-flex align-items-end min-vh-100 overflow-hidden">
       <!-- Background Video -->
       <div class="hero-video-wrapper">
-        <video autoplay muted loop playsinline preload="auto" class="hero-video-bg">
+        <video autoplay muted loop playsinline preload="metadata" class="hero-video-bg">
           <source src="../assets/video/video.mp4" type="video/mp4">
         </video>
         <div class="hero-video-overlay"></div>
@@ -238,7 +239,7 @@
             <div class="col-xl-8 col-lg-9">
               <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
-                <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin" width="36" height="36">
+                <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin" width="36" height="36" loading="lazy" decoding="async">>
                 <p class="mb-0 text-white fs-5 text-opacity-90">
                   <span class="text-primary fw-bold">Sitely</span> — We build websites and digital tools that help your business reach more customers and manage everyday work more easily.
                 </p>
@@ -324,7 +325,7 @@
         </div>
       </div>
       <div class="position-absolute bottom-0 start-0 opacity-25" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
-        <img src="../assets/images/backgrounds/stats-facts-bg.svg" alt="" class="img-fluid">
+        <img src="../assets/images/backgrounds/stats-facts-bg.svg" alt="" class="img-fluid" loading="lazy" decoding="async">>
       </div>
     </section>
 
@@ -372,7 +373,7 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-fatima.svg" alt="Fatima Collection" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-fatima.svg" alt="Fatima Collection" class="img-fluid w-100" loading="lazy" decoding="async">>
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=fatima"
                       class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Fatima Collection Details">
@@ -419,7 +420,7 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-hampers.svg" alt="Happy Hampers" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-hampers.svg" alt="Happy Hampers" class="img-fluid w-100" loading="lazy" decoding="async">>
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=hampers"
                       class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Happy Hampers Details">
@@ -466,7 +467,7 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-grillhouse.svg" alt="Karachi Grill House" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-grillhouse.svg" alt="Karachi Grill House" class="img-fluid w-100" loading="lazy" decoding="async">>
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=grillhouse"
                       class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Karachi Grill House Details">
@@ -513,7 +514,7 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-threadtone.svg" alt="Thread &amp; Tone" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-threadtone.svg" alt="Thread &amp; Tone" class="img-fluid w-100" loading="lazy" decoding="async">>
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=threadtone"
                       class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Thread &amp; Tone Details">
@@ -560,7 +561,7 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-noor.svg" alt="Noor Family Clinic" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-noor.svg" alt="Noor Family Clinic" class="img-fluid w-100" loading="lazy" decoding="async">>
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=noor"
                       class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View Noor Family Clinic Details">
@@ -607,7 +608,7 @@
             <div class="item">
               <div class="portfolio d-flex flex-column gap-6">
                 <div class="portfolio-img position-relative overflow-hidden rounded-4 shadow-sm">
-                  <img src="../assets/images/portfolio/logo-flowdesk.svg" alt="FlowDesk Solutions" class="img-fluid w-100">
+                  <img src="../assets/images/portfolio/logo-flowdesk.svg" alt="FlowDesk Solutions" class="img-fluid w-100" loading="lazy" decoding="async">>
                   <div class="portfolio-overlay">
                     <a href="projects-detail.html?id=flowdesk"
                       class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center text-decoration-none" aria-label="View FlowDesk Details">
@@ -1055,7 +1056,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-hm.svg" alt="Habban Madani" width="110" height="110">
+                    <img src="../assets/images/team/avatar-hm.svg" alt="Habban Madani" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Habban Madani</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">Founder &amp; Full-Stack Developer</p>
@@ -1067,7 +1068,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-hf.svg" alt="Hamza Farooq" width="110" height="110">
+                    <img src="../assets/images/team/avatar-hf.svg" alt="Hamza Farooq" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Hamza Farooq</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">Frontend Developer</p>
@@ -1079,7 +1080,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-da.svg" alt="Daniyal Ahmed" width="110" height="110">
+                    <img src="../assets/images/team/avatar-da.svg" alt="Daniyal Ahmed" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Daniyal Ahmed</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">Backend Developer</p>
@@ -1091,7 +1092,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-uk.svg" alt="Usman Khalid" width="110" height="110">
+                    <img src="../assets/images/team/avatar-uk.svg" alt="Usman Khalid" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Usman Khalid</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">Mobile App Developer</p>
@@ -1103,7 +1104,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-sh.svg" alt="Saad Hassan" width="110" height="110">
+                    <img src="../assets/images/team/avatar-sh.svg" alt="Saad Hassan" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Saad Hassan</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">UI/UX Designer</p>
@@ -1115,7 +1116,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-br.svg" alt="Bilal Raza" width="110" height="110">
+                    <img src="../assets/images/team/avatar-br.svg" alt="Bilal Raza" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Bilal Raza</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">Graphic Designer</p>
@@ -1127,7 +1128,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-za.svg" alt="Zain Abbas" width="110" height="110">
+                    <img src="../assets/images/team/avatar-za.svg" alt="Zain Abbas" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Zain Abbas</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">Digital Marketing Specialist</p>
@@ -1139,7 +1140,7 @@
               <div class="item">
                 <div class="team-member-card">
                   <div class="team-avatar-wrapper">
-                    <img src="../assets/images/team/avatar-am.svg" alt="Ahsan Malik" width="110" height="110">
+                    <img src="../assets/images/team/avatar-am.svg" alt="Ahsan Malik" width="110" height="110" loading="lazy" decoding="async">>
                   </div>
                   <h4 class="mb-1 fw-bold text-dark">Ahsan Malik</h4>
                   <p class="mb-2 text-primary fw-medium fs-4">AI &amp; Automation Specialist</p>
@@ -1186,34 +1187,34 @@
             <div class="tools-track">
               
               <!-- Set 1 -->
-              <div class="tool-chip"><img src="../assets/images/tools/react.svg" alt="React" width="28" height="28"><span class="text-white fw-bold fs-4">React</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/nextjs.svg" alt="Next.js" width="28" height="28"><span class="text-white fw-bold fs-4">Next.js</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/javascript.svg" alt="JavaScript" width="28" height="28"><span class="text-white fw-bold fs-4">JavaScript</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/typescript.svg" alt="TypeScript" width="28" height="28"><span class="text-white fw-bold fs-4">TypeScript</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/flutter.svg" alt="Flutter" width="28" height="28"><span class="text-white fw-bold fs-4">Flutter</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/nodejs.svg" alt="Node.js" width="28" height="28"><span class="text-white fw-bold fs-4">Node.js</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/firebase.svg" alt="Firebase" width="28" height="28"><span class="text-white fw-bold fs-4">Firebase</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/wordpress.svg" alt="WordPress" width="28" height="28"><span class="text-white fw-bold fs-4">WordPress</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/figma.svg" alt="Figma" width="28" height="28"><span class="text-white fw-bold fs-4">Figma</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/github.svg" alt="GitHub" width="28" height="28"><span class="text-white fw-bold fs-4">GitHub</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/googlecloud.svg" alt="Google Cloud" width="28" height="28"><span class="text-white fw-bold fs-4">Google Cloud</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/aws.svg" alt="AWS" width="28" height="28"><span class="text-white fw-bold fs-4">AWS</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/n8n.svg" alt="n8n" width="28" height="28"><span class="text-white fw-bold fs-4">n8n Automation</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/react.svg" alt="React" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">React</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/nextjs.svg" alt="Next.js" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Next.js</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/javascript.svg" alt="JavaScript" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">JavaScript</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/typescript.svg" alt="TypeScript" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">TypeScript</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/flutter.svg" alt="Flutter" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Flutter</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/nodejs.svg" alt="Node.js" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Node.js</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/firebase.svg" alt="Firebase" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Firebase</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/wordpress.svg" alt="WordPress" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">WordPress</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/figma.svg" alt="Figma" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Figma</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/github.svg" alt="GitHub" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">GitHub</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/googlecloud.svg" alt="Google Cloud" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Google Cloud</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/aws.svg" alt="AWS" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">AWS</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/n8n.svg" alt="n8n" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">n8n Automation</span></div>
 
               <!-- Set 2 (Duplicate for smooth infinite scroll) -->
-              <div class="tool-chip"><img src="../assets/images/tools/react.svg" alt="React" width="28" height="28"><span class="text-white fw-bold fs-4">React</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/nextjs.svg" alt="Next.js" width="28" height="28"><span class="text-white fw-bold fs-4">Next.js</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/javascript.svg" alt="JavaScript" width="28" height="28"><span class="text-white fw-bold fs-4">JavaScript</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/typescript.svg" alt="TypeScript" width="28" height="28"><span class="text-white fw-bold fs-4">TypeScript</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/flutter.svg" alt="Flutter" width="28" height="28"><span class="text-white fw-bold fs-4">Flutter</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/nodejs.svg" alt="Node.js" width="28" height="28"><span class="text-white fw-bold fs-4">Node.js</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/firebase.svg" alt="Firebase" width="28" height="28"><span class="text-white fw-bold fs-4">Firebase</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/wordpress.svg" alt="WordPress" width="28" height="28"><span class="text-white fw-bold fs-4">WordPress</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/figma.svg" alt="Figma" width="28" height="28"><span class="text-white fw-bold fs-4">Figma</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/github.svg" alt="GitHub" width="28" height="28"><span class="text-white fw-bold fs-4">GitHub</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/googlecloud.svg" alt="Google Cloud" width="28" height="28"><span class="text-white fw-bold fs-4">Google Cloud</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/aws.svg" alt="AWS" width="28" height="28"><span class="text-white fw-bold fs-4">AWS</span></div>
-              <div class="tool-chip"><img src="../assets/images/tools/n8n.svg" alt="n8n" width="28" height="28"><span class="text-white fw-bold fs-4">n8n Automation</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/react.svg" alt="React" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">React</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/nextjs.svg" alt="Next.js" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Next.js</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/javascript.svg" alt="JavaScript" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">JavaScript</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/typescript.svg" alt="TypeScript" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">TypeScript</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/flutter.svg" alt="Flutter" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Flutter</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/nodejs.svg" alt="Node.js" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Node.js</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/firebase.svg" alt="Firebase" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Firebase</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/wordpress.svg" alt="WordPress" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">WordPress</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/figma.svg" alt="Figma" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Figma</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/github.svg" alt="GitHub" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">GitHub</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/googlecloud.svg" alt="Google Cloud" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">Google Cloud</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/aws.svg" alt="AWS" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">AWS</span></div>
+              <div class="tool-chip"><img src="../assets/images/tools/n8n.svg" alt="n8n" width="28" height="28" loading="lazy" decoding="async">><span class="text-white fw-bold fs-4">n8n Automation</span></div>
 
             </div>
           </div>
@@ -1433,7 +1434,7 @@
               <div class="item">
                 <div class="tip-card tip-card-dark">
                   <div class="tip-img-container">
-                    <img src="../assets/images/resources/blog-website-need.svg" alt="Why Your Business Needs a Website">
+                    <img src="../assets/images/resources/blog-website-need.svg" alt="Why Your Business Needs a Website" loading="lazy" decoding="async">>
                   </div>
                   <div class="tip-body">
                     <span class="tip-badge badge align-self-start mb-3">Business Strategy</span>
@@ -1450,7 +1451,7 @@
               <div class="item">
                 <div class="tip-card tip-card-dark">
                   <div class="tip-img-container">
-                    <img src="../assets/images/resources/blog-social-media.svg" alt="Social Media and Business Growth">
+                    <img src="../assets/images/resources/blog-social-media.svg" alt="Social Media and Business Growth" loading="lazy" decoding="async">>
                   </div>
                   <div class="tip-body">
                     <span class="tip-badge badge align-self-start mb-3">Online Presence</span>
@@ -1467,7 +1468,7 @@
               <div class="item">
                 <div class="tip-card tip-card-dark">
                   <div class="tip-img-container">
-                    <img src="../assets/images/resources/blog-ai-automation.svg" alt="How AI Automation Can Make Business Easier">
+                    <img src="../assets/images/resources/blog-ai-automation.svg" alt="How AI Automation Can Make Business Easier" loading="lazy" decoding="async">>
                   </div>
                   <div class="tip-body">
                     <span class="tip-badge badge align-self-start mb-3">Practical Tools</span>
@@ -1484,7 +1485,7 @@
               <div class="item">
                 <div class="tip-card tip-card-dark">
                   <div class="tip-img-container">
-                    <img src="../assets/images/resources/blog-hire-developer.svg" alt="What to Check Before Hiring a Website Developer">
+                    <img src="../assets/images/resources/blog-hire-developer.svg" alt="What to Check Before Hiring a Website Developer" loading="lazy" decoding="async">>
                   </div>
                   <div class="tip-body">
                     <span class="tip-badge badge align-self-start mb-3">Hiring Advice</span>
@@ -1501,7 +1502,7 @@
               <div class="item">
                 <div class="tip-card tip-card-dark">
                   <div class="tip-img-container">
-                    <img src="../assets/images/resources/blog-professional-online.svg" alt="Ways to Make Your Business Look More Professional Online">
+                    <img src="../assets/images/resources/blog-professional-online.svg" alt="Ways to Make Your Business Look More Professional Online" loading="lazy" decoding="async">>
                   </div>
                   <div class="tip-body">
                     <span class="tip-badge badge align-self-start mb-3">Professional Branding</span>
@@ -1600,7 +1601,7 @@
         <div class="col-xl-5 mb-8 mb-xl-0">
           <div class="d-flex flex-column gap-7 pe-xl-5">
             <a href="index.html" class="logo-white" aria-label="Sitely Home">
-              <img src="../assets/images/logos/logo-white.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46">
+              <img src="../assets/images/logos/logo-white.svg" alt="Sitely Logo" class="img-fluid" width="180" height="46" loading="lazy" decoding="async">>
             </a>
             <h3 class="mb-0 text-white fw-medium">Simple, reliable websites and digital tools for your business.</h3>
             <div class="d-flex flex-column gap-2">
@@ -1664,7 +1665,7 @@
   <script src="../assets/libs/aos-master/dist/aos.js"></script>
   <script src="../assets/js/custom.js"></script>
   <!-- Solar icons -->
-  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <script src="../assets/libs/iconify-icon/iconify-icon.min.js" defer></script>
 </body>
 
 </html>
