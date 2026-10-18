@@ -101,7 +101,7 @@
     <rect x="90" y="35" width="105" height="10" rx="3" fill="#FFFFFF" opacity="0.9"/>
     <rect x="90" y="52" width="85" height="7" rx="2" fill="#10B981"/>
     <rect x="25" y="88" width="170" height="18" rx="6" fill="rgba(255, 255, 255, 0.05)"/>
-    <text x="110" y="100" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Transparent Pricing &bull; No Surprises</text>
+    <text x="110" y="100" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Transparent Pricing &#8226; No Surprises</text>
 
     <!-- Performance Speed Card -->
     <g transform="translate(0, 140)">
