@@ -237,7 +237,7 @@ $(function () {
                 '  <div>' +
                 '    <h5 class="mb-1 fw-bold text-dark">Message Received!</h5>' +
                 '    <p class="mb-2 text-dark opacity-85">Thank you, ' + $('<div>').text($name.val().trim()).html() + '! Your inquiry has been logged. Our engineering and design team will review your requirements and respond at <strong>' + $('<div>').text($email.val().trim()).html() + '</strong> promptly.</p>' +
-                '    <p class="mb-0 fs-3 text-muted">Direct contact: <a href="mailto:habban.madani786@gmail.com" class="text-primary fw-bold">habban.madani786@gmail.com</a></p>' +
+                '    <p class="mb-0 fs-3 text-muted">Direct contact: <a href="mailto:sitelydigitalstudio@gmail.com" class="text-primary fw-bold">sitelydigitalstudio@gmail.com</a></p>' +
                 '  </div>' +
                 '</div>'
             ).fadeIn(300);
