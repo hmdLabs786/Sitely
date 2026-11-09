@@ -44,15 +44,10 @@ $(function () {
                     center: false,
                     margin: 20
                 },
-                1024: {
+                992: {
                     items: 3,
-                    center: true,
+                    center: false,
                     margin: 24
-                },
-                1280: {
-                    items: 4,
-                    center: true,
-                    margin: 28
                 }
             }
         });
