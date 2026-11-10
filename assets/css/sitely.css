@@ -1156,4 +1156,215 @@ body {
   font-weight: 600;
 }
 
+/* ==========================================================================
+   Modern Artistic 5-Services Grid Styles
+   ========================================================================== */
+.service-art-card {
+  position: relative;
+  background: linear-gradient(165deg, rgba(26, 40, 71, 0.95) 0%, rgba(16, 26, 51, 0.98) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.service-art-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, rgba(240, 100, 73, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.service-art-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(240, 100, 73, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.service-icon-bubble {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: rgba(240, 100, 73, 0.15);
+  border: 1px solid rgba(240, 100, 73, 0.35);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sitely-coral);
+  font-size: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.service-icon-bubble svg {
+  stroke: var(--sitely-coral);
+  transition: stroke 0.3s ease;
+}
+
+.service-art-card:hover .service-icon-bubble {
+  background: var(--sitely-coral);
+  color: #FFFFFF;
+  border-color: var(--sitely-coral);
+  box-shadow: 0 0 20px rgba(240, 100, 73, 0.4);
+}
+
+.service-art-card:hover .service-icon-bubble svg {
+  stroke: #FFFFFF;
+}
+
+.service-num-badge {
+  font-family: var(--font-heading, inherit);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 0.75rem;
+  border-radius: 50rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+}
+
+.service-deliverable-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.35rem 0.7rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.service-deliverable-chip iconify-icon {
+  margin-right: 0.35rem;
+  color: var(--sitely-coral);
+}
+
+.service-card-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.service-card-action:hover {
+  color: var(--sitely-coral);
+  gap: 0.75rem;
+}
+
+/* ==========================================================================
+   Modern Why Sitely Grid Styles (Zero Contrast Issues)
+   ========================================================================== */
+.why-modern-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.25rem;
+  padding: 2.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 16px rgba(16, 26, 51, 0.04);
+}
+
+.why-modern-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--sitely-coral);
+  box-shadow: 0 16px 32px rgba(16, 26, 51, 0.09);
+}
+
+.why-modern-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: rgba(240, 100, 73, 0.1);
+  color: var(--sitely-coral);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.why-modern-icon svg {
+  stroke: var(--sitely-coral);
+}
+
+.why-modern-num {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: #64748B;
+  background: #F1F5F9;
+  border-radius: 50rem;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid #E2E8F0;
+}
+
+.why-modern-tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  color: #334155;
+}
+
+/* ==========================================================================
+   Modern Technologies Stack Cards
+   ========================================================================== */
+.tech-stack-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.25rem;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 4px 16px rgba(16, 26, 51, 0.04);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-stack-card:hover {
+  transform: translateY(-4px);
+  border-color: #CBD5E1;
+  box-shadow: 0 12px 28px rgba(16, 26, 51, 0.08);
+}
+
+.tech-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 50rem;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1E293B;
+  transition: all 0.2s ease;
+}
+
+.tech-badge-pill:hover {
+  background: #FFFFFF;
+  border-color: var(--sitely-coral);
+  color: var(--sitely-coral);
+}
+
+
 
