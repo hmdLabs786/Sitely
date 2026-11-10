@@ -1,0 +1,65 @@
+# Netlify Deployment Configuration for Sitely Digital Studio
+
+[build]
+  publish = "."
+
+# Security and Caching Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self' https://sitely-studio.netlify.app; script-src 'self' 'unsafe-inline' https://code.iconify.design https://api.iconify.design; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https://api.iconify.design; media-src 'self'; connect-src 'self' https://api.iconify.design; frame-ancestors 'none'; base-uri 'self'; form-action 'self';"
+
+# Caching for immutable static assets (CSS, JS, Fonts, Images, Videos)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML Caching (always revalidate to ensure immediate updates)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/html/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Redirects
+[[redirects]]
+  from = "/"
+  to = "/html/index.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/html/blog.html"
+  to = "/html/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/html/blog-detail.html"
+  to = "/html/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/html/privacy-policy.html"
+  to = "/html/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/html/terms-and-conditions.html"
+  to = "/html/index.html"
+  status = 301
+
+# 404 Routing
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

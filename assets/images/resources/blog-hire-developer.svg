@@ -80,7 +80,7 @@
       <text x="115" y="95" fill="#F59E0B">'Karachi',</text>
       <!-- Line 6 -->
       <text x="14" y="115" fill="#94A3B8">loadingSpeed:</text>
-      <text x="115" y="115" fill="#38BDF8">'&lt; 1.5s'</text>
+      <text x="115" y="115" fill="#38BDF8">'Fast Mobile'</text>
       <!-- Line 7 -->
       <text x="0" y="135" fill="#FFFFFF">}</text>
     </g>
@@ -88,7 +88,7 @@
     <!-- Terminal Status Tag -->
     <rect x="18" y="215" width="224" height="28" rx="8" fill="rgba(16, 185, 129, 0.15)" stroke="rgba(16, 185, 129, 0.3)"/>
     <circle cx="34" cy="229" r="5" fill="#10B981"/>
-    <text x="48" y="233" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="700">100% QUALITY BENCHMARK PASSED</text>
+    <text x="48" y="233" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="700">VERIFIED QUALITY BENCHMARK</text>
   </g>
 
   <!-- Right: Verification & Reliability Badge Stack -->

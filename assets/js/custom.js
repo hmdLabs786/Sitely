@@ -19,7 +19,7 @@ $(function () {
 
     // 2. Featured Projects Carousel
     var $projectCarousel = $('.featured-projects-slider .owl-carousel');
-    if ($projectCarousel.length) {
+    if ($projectCarousel.length && typeof $.fn.owlCarousel === 'function') {
         $projectCarousel.owlCarousel({
             center: true,
             loop: true,

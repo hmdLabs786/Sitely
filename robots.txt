@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /assets/libs/
+Disallow: /html/sign-in.html
+Disallow: /html/sign-up.html
 
-Sitemap: https://sitely.pk/sitemap.xml
+Sitemap: https://sitely-studio.netlify.app/sitemap.xml

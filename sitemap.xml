@@ -3,46 +3,63 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Core Website Pages -->
   <url>
-    <loc>https://sitely.pk/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://sitely-studio.netlify.app/html/index.html</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sitely.pk/html/about-us.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://sitely-studio.netlify.app/html/about-us.html</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sitely.pk/html/projects.html</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sitely.pk/html/blog.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://sitely-studio.netlify.app/html/projects.html</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sitely.pk/html/contact.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://sitely-studio.netlify.app/html/contact.html</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dedicated Service Pages -->
+  <url>
+    <loc>https://sitely-studio.netlify.app/html/website-design-development.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sitely.pk/html/privacy-policy.html</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://sitely-studio.netlify.app/html/ecommerce-website-development.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sitely.pk/html/terms-and-conditions.html</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://sitely-studio.netlify.app/html/mobile-application-development.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://sitely-studio.netlify.app/html/social-media-management.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sitely-studio.netlify.app/html/graphic-design-branding.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
